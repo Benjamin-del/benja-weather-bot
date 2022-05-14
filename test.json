@@ -1,0 +1,1136 @@
+{
+  "siteData": {
+    "license": "https://dd.weather.gc.ca/doc/LICENCE_GENERAL.txt",
+    "dateTime": [
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "14",
+        "hour": "18",
+        "minute": "44",
+        "timeStamp": "20220514184400",
+        "textSummary": "Saturday May 14, 2022 at 18:44 UTC",
+        "_attributes": {
+          "name": "xmlCreation",
+          "zone": "UTC",
+          "UTCOffset": "0"
+        }
+      },
+      {
+        "year": "2022",
+        "month": "05",
+        "day": "14",
+        "hour": "14",
+        "minute": "44",
+        "timeStamp": "20220514144400",
+        "textSummary": "Saturday May 14, 2022 at 14:44 EDT",
+        "_attributes": {
+          "name": "xmlCreation",
+          "zone": "EDT",
+          "UTCOffset": "-4"
+        }
+      }
+    ],
+    "location": {
+      "continent": "North America",
+      "country": "Canada",
+      "province": "Ontario",
+      "name": "Ottawa (Kanata - Orléans)",
+      "region": "Ottawa North - Kanata - Orléans",
+      "_attributes": {}
+    },
+    "warnings": "",
+    "currentConditions": {
+      "station": "Ottawa Macdonald-Cartier Int'l Airport",
+      "dateTime": [
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "18",
+          "minute": "00",
+          "timeStamp": "20220514180000",
+          "textSummary": "Saturday May 14, 2022 at 18:00 UTC",
+          "_attributes": {
+            "name": "observation",
+            "zone": "UTC",
+            "UTCOffset": "0"
+          }
+        },
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "14",
+          "minute": "00",
+          "timeStamp": "20220514140000",
+          "textSummary": "Saturday May 14, 2022 at 14:00 EDT",
+          "_attributes": {
+            "name": "observation",
+            "zone": "EDT",
+            "UTCOffset": "-4"
+          }
+        }
+      ],
+      "condition": "Mostly Cloudy",
+      "iconCode": "03",
+      "temperature": "30.1",
+      "dewpoint": "15.3",
+      "humidex": "34",
+      "pressure": "101.4",
+      "visibility": "24.1",
+      "relativeHumidity": "41",
+      "wind": {
+        "speed": "16",
+        "gust": "",
+        "direction": "S",
+        "bearing": "179.0",
+        "_attributes": {}
+      },
+      "_attributes": {}
+    },
+    "forecastGroup": {
+      "dateTime": [
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "15",
+          "minute": "00",
+          "timeStamp": "20220514150000",
+          "textSummary": "Saturday May 14, 2022 at 15:00 UTC",
+          "_attributes": {
+            "name": "forecastIssue",
+            "zone": "UTC",
+            "UTCOffset": "0"
+          }
+        },
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "11",
+          "minute": "00",
+          "timeStamp": "20220514110000",
+          "textSummary": "Saturday May 14, 2022 at 11:00 EDT",
+          "_attributes": {
+            "name": "forecastIssue",
+            "zone": "EDT",
+            "UTCOffset": "-4"
+          }
+        }
+      ],
+      "regionalNormals": {
+        "textSummary": "Low 8. High 20.",
+        "temperature": [
+          "20",
+          "8"
+        ],
+        "_attributes": {}
+      },
+      "forecast": [
+        {
+          "period": "Saturday",
+          "textSummary": "Mainly sunny. Wind becoming south 20 km/h late this afternoon. High 33. Humidex 37. UV index 8 or very high.",
+          "cloudPrecip": {
+            "textSummary": "Mainly sunny.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "01",
+            "pop": "",
+            "textSummary": "Mainly sunny",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 33.",
+            "temperature": "33",
+            "_attributes": {}
+          },
+          "winds": {
+            "textSummary": "Wind becoming south 20 km/h late this afternoon.",
+            "wind": [
+              {
+                "speed": "10",
+                "gust": "00",
+                "direction": "S",
+                "bearing": "18",
+                "_attributes": {
+                  "index": "1",
+                  "rank": "major"
+                }
+              },
+              {
+                "speed": "20",
+                "gust": "00",
+                "direction": "S",
+                "bearing": "18",
+                "_attributes": {
+                  "index": "2",
+                  "rank": "major"
+                }
+              }
+            ],
+            "_attributes": {}
+          },
+          "humidex": {
+            "calculated": "37",
+            "textSummary": "Humidex 37.",
+            "_attributes": {}
+          },
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "",
+            "_attributes": {}
+          },
+          "uv": {
+            "index": "8",
+            "textSummary": "UV index 8 or very high.",
+            "_attributes": {
+              "category": "very high"
+            }
+          },
+          "relativeHumidity": "35",
+          "_attributes": {}
+        },
+        {
+          "period": "Saturday night",
+          "textSummary": "Partly cloudy. 30 percent chance of showers late this evening and after midnight with risk of a thunderstorm. Wind south 20 km/h becoming light early this evening. Low 17.",
+          "cloudPrecip": {
+            "textSummary": "Partly cloudy. 30 percent chance of showers late this evening and after midnight with risk of a thunderstorm.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "39",
+            "pop": "30",
+            "textSummary": "Chance of showers",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "Low 17.",
+            "temperature": "17",
+            "_attributes": {}
+          },
+          "winds": {
+            "textSummary": "Wind south 20 km/h becoming light early this evening.",
+            "wind": [
+              {
+                "speed": "20",
+                "gust": "00",
+                "direction": "S",
+                "bearing": "18",
+                "_attributes": {
+                  "index": "1",
+                  "rank": "major"
+                }
+              },
+              {
+                "speed": "05",
+                "gust": "00",
+                "direction": "VR",
+                "bearing": "99",
+                "_attributes": {
+                  "index": "2",
+                  "rank": "minor"
+                }
+              },
+              {
+                "speed": "10",
+                "gust": "00",
+                "direction": "SE",
+                "bearing": "14",
+                "_attributes": {
+                  "index": "3",
+                  "rank": "major"
+                }
+              },
+              {
+                "speed": "10",
+                "gust": "00",
+                "direction": "S",
+                "bearing": "18",
+                "_attributes": {
+                  "index": "4",
+                  "rank": "minor"
+                }
+              },
+              {
+                "speed": "10",
+                "gust": "00",
+                "direction": "SW",
+                "bearing": "22",
+                "_attributes": {
+                  "index": "5",
+                  "rank": "minor"
+                }
+              }
+            ],
+            "_attributes": {}
+          },
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "relativeHumidity": "90",
+          "_attributes": {}
+        },
+        {
+          "period": "Sunday",
+          "textSummary": "Cloudy. 60 percent chance of showers in the afternoon with risk of a thunderstorm. High 22. Humidex 28. UV index 5 or moderate.",
+          "cloudPrecip": {
+            "textSummary": "Cloudy. 60 percent chance of showers in the afternoon with risk of a thunderstorm.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "19",
+            "pop": "60",
+            "textSummary": "Chance of showers",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 22.",
+            "temperature": "22",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": {
+            "calculated": "28",
+            "textSummary": "Humidex 28.",
+            "_attributes": {}
+          },
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "uv": {
+            "index": "5",
+            "textSummary": "UV index 5 or moderate.",
+            "_attributes": {
+              "category": "moderate"
+            }
+          },
+          "relativeHumidity": "80",
+          "_attributes": {}
+        },
+        {
+          "period": "Sunday night",
+          "textSummary": "Cloudy periods with 30 percent chance of showers. Low 14.",
+          "cloudPrecip": {
+            "textSummary": "Cloudy periods with 30 percent chance of showers.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "36",
+            "pop": "30",
+            "textSummary": "Chance of showers",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "Low 14.",
+            "temperature": "14",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "relativeHumidity": "95",
+          "_attributes": {}
+        },
+        {
+          "period": "Monday",
+          "textSummary": "A mix of sun and cloud with 60 percent chance of showers. High 22.",
+          "cloudPrecip": {
+            "textSummary": "A mix of sun and cloud with 60 percent chance of showers.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "06",
+            "pop": "60",
+            "textSummary": "Chance of showers",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 22.",
+            "temperature": "22",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "relativeHumidity": "65",
+          "_attributes": {}
+        },
+        {
+          "period": "Monday night",
+          "textSummary": "Showers. Low 11.",
+          "cloudPrecip": {
+            "textSummary": "Showers.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "12",
+            "pop": "",
+            "textSummary": "Showers",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "Low 11.",
+            "temperature": "11",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "relativeHumidity": "85",
+          "_attributes": {}
+        },
+        {
+          "period": "Tuesday",
+          "textSummary": "Cloudy with 40 percent chance of showers. High 18.",
+          "cloudPrecip": {
+            "textSummary": "Cloudy with 40 percent chance of showers.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "12",
+            "pop": "40",
+            "textSummary": "Chance of showers",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 18.",
+            "temperature": "18",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "relativeHumidity": "60",
+          "_attributes": {}
+        },
+        {
+          "period": "Tuesday night",
+          "textSummary": "Cloudy periods. Low 6.",
+          "cloudPrecip": {
+            "textSummary": "Cloudy periods.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "32",
+            "pop": "",
+            "textSummary": "Cloudy periods",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "Low 6.",
+            "temperature": "6",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "",
+            "_attributes": {}
+          },
+          "relativeHumidity": "70",
+          "_attributes": {}
+        },
+        {
+          "period": "Wednesday",
+          "textSummary": "Sunny. High 20.",
+          "cloudPrecip": {
+            "textSummary": "Sunny.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "00",
+            "pop": "",
+            "textSummary": "Sunny",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 20.",
+            "temperature": "20",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "",
+            "_attributes": {}
+          },
+          "relativeHumidity": "25",
+          "_attributes": {}
+        },
+        {
+          "period": "Wednesday night",
+          "textSummary": "Clear. Low 7.",
+          "cloudPrecip": {
+            "textSummary": "Clear.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "30",
+            "pop": "",
+            "textSummary": "Clear",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "Low 7.",
+            "temperature": "7",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "",
+            "_attributes": {}
+          },
+          "relativeHumidity": "50",
+          "_attributes": {}
+        },
+        {
+          "period": "Thursday",
+          "textSummary": "Sunny. High 23.",
+          "cloudPrecip": {
+            "textSummary": "Sunny.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "00",
+            "pop": "",
+            "textSummary": "Sunny",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 23.",
+            "temperature": "23",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "",
+            "_attributes": {}
+          },
+          "relativeHumidity": "25",
+          "_attributes": {}
+        },
+        {
+          "period": "Thursday night",
+          "textSummary": "Clear. Low 10.",
+          "cloudPrecip": {
+            "textSummary": "Clear.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "30",
+            "pop": "",
+            "textSummary": "Clear",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "Low 10.",
+            "temperature": "10",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "",
+            "_attributes": {}
+          },
+          "relativeHumidity": "55",
+          "_attributes": {}
+        },
+        {
+          "period": "Friday",
+          "textSummary": "Increasing cloudiness. High 25.",
+          "cloudPrecip": {
+            "textSummary": "Increasing cloudiness.",
+            "_attributes": {}
+          },
+          "abbreviatedForecast": {
+            "iconCode": "02",
+            "pop": "",
+            "textSummary": "A mix of sun and cloud",
+            "_attributes": {}
+          },
+          "temperatures": {
+            "textSummary": "High 25.",
+            "temperature": "25",
+            "_attributes": {}
+          },
+          "winds": "",
+          "humidex": "",
+          "precipitation": {
+            "textSummary": "",
+            "precipType": "rain",
+            "_attributes": {}
+          },
+          "relativeHumidity": "35",
+          "_attributes": {}
+        }
+      ],
+      "_attributes": {}
+    },
+    "hourlyForecastGroup": {
+      "dateTime": [
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "15",
+          "minute": "00",
+          "timeStamp": "20220514150000",
+          "textSummary": "Saturday May 14, 2022 at 15:00 UTC",
+          "_attributes": {
+            "name": "forecastIssue",
+            "zone": "UTC",
+            "UTCOffset": "0"
+          }
+        },
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "11",
+          "minute": "00",
+          "timeStamp": "20220514110000",
+          "textSummary": "Saturday May 14, 2022 at 11:00 EDT",
+          "_attributes": {
+            "name": "forecastIssue",
+            "zone": "EDT",
+            "UTCOffset": "-4"
+          }
+        }
+      ],
+      "hourlyForecast": [
+        {
+          "condition": "A mix of sun and cloud",
+          "iconCode": "02",
+          "temperature": "32",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "36",
+          "wind": {
+            "speed": "10",
+            "direction": "S",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205141900"
+          }
+        },
+        {
+          "condition": "A mix of sun and cloud",
+          "iconCode": "02",
+          "temperature": "32",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "36",
+          "wind": {
+            "speed": "10",
+            "direction": "S",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205142000"
+          }
+        },
+        {
+          "condition": "A mix of sun and cloud",
+          "iconCode": "02",
+          "temperature": "33",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "37",
+          "wind": {
+            "speed": "20",
+            "direction": "S",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205142100"
+          }
+        },
+        {
+          "condition": "A mix of sun and cloud",
+          "iconCode": "02",
+          "temperature": "31",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "35",
+          "wind": {
+            "speed": "20",
+            "direction": "S",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205142200"
+          }
+        },
+        {
+          "condition": "Mainly sunny",
+          "iconCode": "01",
+          "temperature": "30",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "33",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205142300"
+          }
+        },
+        {
+          "condition": "A few clouds",
+          "iconCode": "31",
+          "temperature": "28",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "31",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150000"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "39",
+          "temperature": "26",
+          "lop": "30",
+          "windChill": "",
+          "humidex": "29",
+          "wind": {
+            "speed": "10",
+            "direction": "SE",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150100"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "39",
+          "temperature": "25",
+          "lop": "30",
+          "windChill": "",
+          "humidex": "29",
+          "wind": {
+            "speed": "10",
+            "direction": "S",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150200"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "39",
+          "temperature": "23",
+          "lop": "30",
+          "windChill": "",
+          "humidex": "27",
+          "wind": {
+            "speed": "10",
+            "direction": "SW",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150300"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "39",
+          "temperature": "22",
+          "lop": "30",
+          "windChill": "",
+          "humidex": "26",
+          "wind": {
+            "speed": "10",
+            "direction": "S",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150400"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "39",
+          "temperature": "20",
+          "lop": "30",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150500"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "39",
+          "temperature": "19",
+          "lop": "30",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150600"
+          }
+        },
+        {
+          "condition": "Mainly cloudy",
+          "iconCode": "33",
+          "temperature": "19",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150700"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "18",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150800"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "18",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205150900"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "18",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151000"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "17",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151100"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "17",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151200"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "17",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151300"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "18",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151400"
+          }
+        },
+        {
+          "condition": "Cloudy",
+          "iconCode": "10",
+          "temperature": "18",
+          "lop": "20",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151500"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "09",
+          "temperature": "18",
+          "lop": "60",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151600"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "09",
+          "temperature": "19",
+          "lop": "60",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151700"
+          }
+        },
+        {
+          "condition": "Chance of showers. Risk of thunderstorms",
+          "iconCode": "09",
+          "temperature": "19",
+          "lop": "60",
+          "windChill": "",
+          "humidex": "",
+          "wind": {
+            "speed": "5",
+            "direction": "VR",
+            "gust": "",
+            "_attributes": {}
+          },
+          "_attributes": {
+            "dateTimeUTC": "202205151800"
+          }
+        }
+      ],
+      "_attributes": {}
+    },
+    "yesterdayConditions": {
+      "temperature": [
+        "30.3",
+        "14.4"
+      ],
+      "precip": "0.0",
+      "_attributes": {}
+    },
+    "riseSet": {
+      "disclaimer": "The information provided here, for the times of the rise and set of the sun, is an estimate included as a convenience to our clients. Values shown here may differ from the official sunrise/sunset data available from (http://hia-iha.nrc-cnrc.gc.ca/sunrise_e.html)",
+      "dateTime": [
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "09",
+          "minute": "34",
+          "timeStamp": "20220514093400",
+          "textSummary": "Saturday May 14, 2022 at 09:34 UTC",
+          "_attributes": {
+            "name": "sunrise",
+            "zone": "UTC",
+            "UTCOffset": "0"
+          }
+        },
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "05",
+          "minute": "34",
+          "timeStamp": "20220514053400",
+          "textSummary": "Saturday May 14, 2022 at 05:34 EDT",
+          "_attributes": {
+            "name": "sunrise",
+            "zone": "EDT",
+            "UTCOffset": "-4"
+          }
+        },
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "15",
+          "hour": "00",
+          "minute": "24",
+          "timeStamp": "20220515002400",
+          "textSummary": "Sunday May 15, 2022 at 00:24 UTC",
+          "_attributes": {
+            "name": "sunset",
+            "zone": "UTC",
+            "UTCOffset": "0"
+          }
+        },
+        {
+          "year": "2022",
+          "month": "05",
+          "day": "14",
+          "hour": "20",
+          "minute": "24",
+          "timeStamp": "20220514202400",
+          "textSummary": "Saturday May 14, 2022 at 20:24 EDT",
+          "_attributes": {
+            "name": "sunset",
+            "zone": "EDT",
+            "UTCOffset": "-4"
+          }
+        }
+      ],
+      "_attributes": {}
+    },
+    "almanac": {
+      "temperature": [
+        "30.7",
+        "-2.2",
+        "18.9",
+        "7.4",
+        "13.2"
+      ],
+      "precipitation": [
+        "24.2",
+        "0.0",
+        "24.2",
+        "0.0"
+      ],
+      "pop": "43.0",
+      "_attributes": {}
+    },
+    "_attributes": {
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "xsi:noNamespaceSchemaLocation": "https://dd.weather.gc.ca/citypage_weather/schema/site.xsd"
+    }
+  }
+}
