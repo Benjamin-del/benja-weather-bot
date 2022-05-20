@@ -1,18 +1,12 @@
+console.log("Starting...")
 const { MessageEmbed, Client, Intents, MessageActionRow, MessageButton } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { SlashCommandBuilder } = require('@discordjs/builders');
-
-
-console.log("Starting...")
-// Helpers
-// Comands
 const search = require("./commands/search.js")
 const woptions = require("./commands/options.js")
 const wtypes = require("./commands/types.js")
-// Static
 
-//commands
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 });
