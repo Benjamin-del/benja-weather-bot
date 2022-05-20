@@ -1,265 +1,131 @@
-const stlist = require("./stations.json")
-const { MessageEmbed } = require('discord.js');
-const { Client, Intents } = require("discord.js");
-const txml = require("txml");
-const axios = require('axios').default;
-const logo = "https://weather.benja.ml/photos/icon-white.png"
+const { MessageEmbed, Client, Intents, MessageActionRow, MessageButton } = require('discord.js');
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v9');
+const { SlashCommandBuilder } = require('@discordjs/builders');
 
-const theme = {
-	logo: "https://weather.benja.ml/photos/icon-white.png",
-	errror: "#FF0000",
-	main: "#FF7700",
-}
+
+console.log("Starting...")
+// Helpers
+// Comands
+const search = require("./commands/search.js")
+const woptions = require("./commands/options.js")
+const wtypes = require("./commands/types.js")
+// Static
+
+//commands
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
 });
 
-client.on("ready", () => {
-  console.log("Server Booted...");
-	console.log("Fetching stations List")
-	client.user.setPresence({ activities: [{ name: 'with Canadian weather' }] });
-});
-function error(message) {
-	const error_embed = new MessageEmbed()
-		.setColor(theme.main)
-		.setTitle('Error')
-		.setAuthor({ name: 'Benja Weather', iconURL: 'https://weather.benja.ml/photos/icon.png', url: 'https://weather.benja.ml' })
-		.setDescription("Error With Getting your weather Sorry!")
-		.setTimestamp()
-		.setFooter({ text: 'Powered By Benja Weather'});
-	message.channel.send({ embeds: [error_embed] });
+
+const config = {
+	client: process.env['D_ID'],
+	token: process.env['D_TOKEN']
 }
-client.on("messageCreate", (message) => {
-  if (message.content.startsWith("!s")) {
-		const results = []
-		const list = stlist.features
-			message.channel.send("Searching...")
-		  for (let i = 0; i < list.length; i++) {
-				const msg = message.toString().split(" ")[1]
-				if (list[i].properties["English Names"].toUpperCase().includes(msg.toUpperCase()) && msg.length > 2) {
-					results.push(list[i].properties)
+
+const searchslash = new SlashCommandBuilder()
+	.setName('search')
+	.setDescription('Search Weather stations')
+	.addStringOption(option =>
+		option.setName('search')
+			.setDescription('Search Weather stations')
+			.setRequired(true));
+	
+	const commands = [searchslash]
+		commands.map(commands => searchslash.toJSON())
+	try {
+	const rest = new REST({ version: '10' }).setToken(config.token);
+	rest.put(Routes.applicationCommands(config.client), { body: commands })
+		.then(() => console.log('INFO: INTERACTION COMMANDS REGISTERED'))
+
+		
+	} catch (err) {
+		console.log(err)
+	}
+
+
+client.once('ready', () => {
+	console.log('INFO: READY');
+	console.log(`INFO: LOGGED ${client.user.tag}!`);
+});
+client.on('interactionCreate', async interaction => {
+	if (interaction.isCommand()) {
+		const { commandName } = interaction;
+
+		if (commandName === 'search') {
+			const query = interaction.options.getString("search")
+			searchCom(query,interaction)
+		}
+	} else if (interaction.isButton()) {
+			const types = interaction.customId.split("-")[0]
+			const code = interaction.customId.split("-")[2]
+
+			console.log(interaction.customId)
+		// Button Return 
+			if (types === "btn") {
+				// If Button is from weather return.
+				console.log(interaction.customId)
+				//btn-0-s0000430-ON-523
+				const prov = interaction.customId.split("-")[3]
+				wopt(code,interaction,prov)
+			} else if (types === "opt") {
+				//opt-mtd-code-rdn
+				const method = interaction.customId.split("-")[1]
+				const prov = interaction.customId.split("-")[3]
+				
+				if (method === "c") {
+					interaction.reply("Curent Forcast:")
+					const weather_c = await wtypes.current(code,prov)
+					console.log(weather_c)
+					const channel = client.channels.cache.get(interaction.channelId);
+					channel.send(weather_c);
+				} else if (method === "hr") {
+					interaction.reply("Hourly Forcast:")
+					const weather_h = await wtypes.hourly(code,prov)
+					console.log(weather_h)
+					const channel = client.channels.cache.get(interaction.channelId);
+					channel.send(weather_h);	
+				} else if (method === "7" || method === 7) {
+					interaction.reply("7-day Forcast:")
+					const weather_7 = await wtypes.daily(code,prov)
+					console.log(weather_7)
+					const channel = client.channels.cache.get(interaction.channelId);
+					channel.send(weather_7);	
 				}
 			}
-		var resname = "results"
-
-		if (results.length === 1) {
-			resname = "result"
-		}
-		message.channel.send("I have found " + results.length + " " + resname)
-		 for (let i = 0; i < results.length; i++) {
-		 		const result_embed = new MessageEmbed()
-					.setColor(theme.main)
-					.setTitle('Search Result')
-					.setURL("https://weather.benja.ml/forcast/?id=" + results[i].Codes)
-					.setAuthor({ name: 'Benja Weather', iconURL: logo, url: 'https://weather.benja.ml' })
-					.setDescription('To Check Weather @ ' + fixNames(results[i]["English Names"]) + " send !w " + results[i].Codes)
-					.setTimestamp()
-					.setFooter({ text: 'Powered By Benja Weather'});
-		 		message.channel.send({ embeds: [result_embed] });
-		 }
-  } else if (message.content.startsWith("!w")) {
-		const method = message.toString().split(" ")[1]
-		const code = message.toString().split(" ")[2]
-
-		if (method === "c") {
-			current(code,message)
-		} else if (method === "d") {
-			daily(code,message)
-		} else if (method === "h"){
-			hourly(code,message)
-		} else if (method === "a") {
-			current(code,message)
-			daily(code,message)
-			hourly(code,message)
-		}
 	}
 });
 
-function current(code,message) {
-		axios.get('https://dd.weather.gc.ca/citypage_weather/xml/ON/' + code + "_e.xml")
-  		.then(function (response) {
-    	// handle success
-				//console.log(response.data)
-				const formated = (txml.simplify(txml.parse(response.data)).siteData)
-				const current = formated.currentConditions
-				
-				const currentembed = {
-					color: theme.main,
-					title: 'Curent Conditions @ ' + current.station,
-					url: logo,
-					author: {
-						name: 'Benja Weather',
-						icon_url: checkIcon(current.iconCode),
-						url: 'https://weather.benja.ml/forcast/?id=' + code,
-					},
-					description: current.condition + " | " + current.temperature + '°C',
-					thumbnail: {
-						url: 'https://weather.benja.ml/forcast/?id=' + code,
-					},
-					fields: [
-		{
-			name: 'Wind',
-			value: current.wind.speed + " KM/H " + current.wind.direction + " (" + current.wind.bearing + "°)",
-			inline: true,
-		},
-		{
-			name: 'Humidex',
-			value: current.humidex,
-			inline: true,
-		},
-		{
-			name: 'Humidity',
-			value: current.relativeHumidity + "%",
-			inline: true,
-		},
-		{
-			name: 'Pressure',
-			value: current.pressure + " kPa",
-			inline: true,
-		},
-		{
-			name: 'Visibility',
-			value: current.visibility + " KM",
-			inline: true,
-		},
-		{
-			name: 'Dew point',
-			value: current.dewpoint + "°C",
-			inline: true,
-		}
-	
-	],
-	timestamp: new Date(),
-	footer: {
-		text: 'Powered by Benja Weather',
-		icon_url: logo,
-	},
-	
-};
-
-message.channel.send({ embeds: [currentembed] });
-			})
-  		.catch(function (err) {
-    	// handle error
-			error(message)
-    	console.log(err);
-  	})
-}
-function daily(code,message) {
-		axios.get('https://dd.weather.gc.ca/citypage_weather/xml/ON/' + code + "_e.xml")
-  		.then(function (response) {
-    	// handle success
-				//console.log(response.data)
-				const formated = (txml.simplify(txml.parse(response.data)).siteData)
-				const days = formated.forecastGroup.forecast
-				const ft = []
-					for (let i = 0; i < days.length; i++) {
-						const obj = {
-							name: days[i].period,
-							value: days[i].abbreviatedForecast.textSummary,
-							inline: true
-							}		
-							ft.push(obj)
-						}
-				const perday_embed = {
-					color: theme.main,
-					title: 'Daily Conditions @ ' + formated.currentConditions.station,
-					url: 'https://weather.benja.ml/forcast/?id=' + code,
-					author: {
-						name: 'Benja Weather',
-						icon_url: checkIcon(formated.currentConditions.iconCode),
-						url: 'https://weather.benja.ml/forcast/?id=' + code,
-					},
-					thumbnail: {
-						url: 'https://weather.benja.ml/forcast/?id=' + code,
-					},
-					fields: ft,
-					timestamp: new Date(),
-					footer: {
-					text: 'Powered by Benja Weather',
-					icon_url: logo,
-					},
-				};
-	
-		message.channel.send({ embeds: [perday_embed] });
-			})
-  		.catch(function (err) {
-    	// handle error
-			error(message)
-    	console.log(err);
-  	})
-}
-// Hourly
-function hourly(code,message) {
-		axios.get('https://dd.weather.gc.ca/citypage_weather/xml/ON/' + code + "_e.xml")
-  		.then(function (response) {
-    	// handle success
-				//console.log(response.data)
-				const formated = (txml.simplify(txml.parse(response.data)).siteData)
-				const hr = formated.hourlyForecastGroup.hourlyForecast
-				const ft = []
-					for (let i = 0; i < hr.length; i++) {
-						const obj = {
-							name: time(hr[i]._attributes.dateTimeUTC).hr,
-							value: hr[i].condition,
-							inline: true
-							}		
-							ft.push(obj)
-						}
-				const perday_embed = {
-					color: theme.main,
-					title: 'Hourly Conditions @ ' + formated.currentConditions.station,
-					url: 'https://weather.benja.ml/forcast/?id=' + code,
-					author: {
-						name: 'Benja Weather',
-						icon_url: checkIcon(formated.currentConditions.iconCode),
-						url: 'https://weather.benja.ml/forcast/?id=' + code,
-					},
-					thumbnail: {
-						url: 'https://weather.benja.ml/forcast/?id=' + code,
-					},
-					fields: ft,
-					timestamp: new Date(),
-					footer: {
-					text: 'Powered by Benja Weather',
-					icon_url: logo,
-					},
-				};
-	
-		message.channel.send({ embeds: [perday_embed] });
-			})
-  		.catch(function (err) {
-    	// handle error
-			error(message)
-    	console.log(err);
-  	})
-}
-function fixNames(data) {
-	return data.replace(/Ã´/gi,"ô").replace(/Ã¨/gi,"è").replace(/Ã©/gi,"é").replace(/ÃŽ/gi,"Î").replace(/Ã/gi,"à")
+async function searchCom(query,interaction) {
+		const channel = client.channels.cache.get(interaction.channelId);
+		await interaction.reply("Searching")
+		const options = await search.helper(query)
+		const scom = await search.command(options,interaction)
+		
+channel.send(scom);
 }
 
 
-function checkIcon(icon) {
-	if (icon === "" || icon === undefined || icon === null) {
-		return logo
-	} else {
-		return 'https://weather.gc.ca/weathericons/' + icon + ".gif"
+
+async function wopt(code,interaction,prov) {
+	const channel = client.channels.cache.get(interaction.channelId);
+	await interaction.reply("Loading...")
+	const wopt_res = await woptions.command(code,prov)
+	await interaction.editReply("Chose An Option. You can always come back here to choose a new option")
+	channel.send(wopt_res);
+}
+
+client.on("messageCreate", (message) => {
+  if (message.content.startsWith("$update")) {
+		message.reply("Connecting `" + message.guild.name + "` To Benja Weather")
+		console.log("Deploy")
+		deploy(message.guild.id,message)
 	}
-}
+})
 
-function time(time) {
-	let [C,Y,M,D,H,m] = time.match(/\d\d/g);
-	const tstring = new Date(Date.UTC(C+Y, M-1, D, H))
+client.login(config.token);
 
-	var minutes = tstring.getMinutes()
-
-	if (minutes < 10) {
-		minutes  = minutes + "0"
-	}
-	return {
-		hr: tstring.getHours() + ":" + minutes,
-		all: tstring
-	}
-}
-const discordkey = process.env['discordKey']
-client.login(discordkey);
+process.on('uncaughtException', function (err) {
+  console.error(err);
+  console.log("Node NOT Exiting...");
+});
