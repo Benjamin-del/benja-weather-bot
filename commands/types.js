@@ -1,15 +1,15 @@
 const axios = require('axios').default;
 const txml = require('txml');
-console.log("INFO: COMMAND TYPES LOADED")
+console.log("BOT: COMMAND TYPES LOADED")
 
 module.exports = {
 	current: async function(code,prov,interaction) {
 			
 			const response = await axios.get('https://dd.weather.gc.ca/citypage_weather/xml/' + prov +'/' + code + "_e.xml")
     	// handle success
-				console.log(response.data)
+				//console.log(response.data)
 				const formated = (txml.simplify(txml.parse(response.data)).siteData)
-				console.log(formated)
+				//console.log(formated)
 				const current = formated.currentConditions
 				const wind = current.wind
 		

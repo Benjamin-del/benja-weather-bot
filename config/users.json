@@ -1,0 +1,23 @@
+{
+	"u": [
+		{
+			"user": "697948065092599869",
+			"locations": [
+				{
+					"name": "Ottawa (Kanata - Orléans)",
+					"code": "s0000430",
+					"prov": "ON"
+				},
+				{
+					"name": "Ottawa (Richmond - Metcalfe)",
+					"code": "s0000623",
+					"prov": "ON"
+				}
+			]
+		},
+		{
+			"user": "6979480650925998699",
+			"locations": []
+		}
+	]
+}

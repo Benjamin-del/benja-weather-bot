@@ -1,0 +1,4226 @@
+{
+	"generated": "2022-05-25T14:54:36.505Z",
+	"src": "https://collaboration.cmc.ec.gc.ca/cmc/cmos/public_doc/msc-data/citypage-weather/site_list_en.geojson",
+	"stations": [
+		{
+			"name": "Athabasca",
+			"code": "s0000001",
+			"prov": "AB"
+		},
+		{
+			"name": "Clearwater",
+			"code": "s0000002",
+			"prov": "BC"
+		},
+		{
+			"name": "Valemount",
+			"code": "s0000003",
+			"prov": "BC"
+		},
+		{
+			"name": "Grand Forks",
+			"code": "s0000004",
+			"prov": "BC"
+		},
+		{
+			"name": "McBride",
+			"code": "s0000005",
+			"prov": "BC"
+		},
+		{
+			"name": "Merritt",
+			"code": "s0000006",
+			"prov": "BC"
+		},
+		{
+			"name": "Masset",
+			"code": "s0000007",
+			"prov": "BC"
+		},
+		{
+			"name": "Invermere",
+			"code": "s0000008",
+			"prov": "BC"
+		},
+		{
+			"name": "Dome Creek",
+			"code": "s0000009",
+			"prov": "BC"
+		},
+		{
+			"name": "Little Grand Rapids",
+			"code": "s0000010",
+			"prov": "MB"
+		},
+		{
+			"name": "Oxford House",
+			"code": "s0000011",
+			"prov": "MB"
+		},
+		{
+			"name": "Bissett",
+			"code": "s0000012",
+			"prov": "MB"
+		},
+		{
+			"name": "Shamattawa",
+			"code": "s0000013",
+			"prov": "MB"
+		},
+		{
+			"name": "York Factory",
+			"code": "s0000014",
+			"prov": "MB"
+		},
+		{
+			"name": "Flin Flon",
+			"code": "s0000015",
+			"prov": "MB"
+		},
+		{
+			"name": "Musgrave Harbour",
+			"code": "s0000016",
+			"prov": "NL"
+		},
+		{
+			"name": "New-Wes-Valley",
+			"code": "s0000017",
+			"prov": "NL"
+		},
+		{
+			"name": "Bay Roberts",
+			"code": "s0000018",
+			"prov": "NL"
+		},
+		{
+			"name": "St. Alban's",
+			"code": "s0000019",
+			"prov": "NL"
+		},
+		{
+			"name": "Fourchu Head",
+			"code": "s0000020",
+			"prov": "NS"
+		},
+		{
+			"name": "North Mountain (Cape Breton)",
+			"code": "s0000021",
+			"prov": "NS"
+		},
+		{
+			"name": "Marathon",
+			"code": "s0000022",
+			"prov": "ON"
+		},
+		{
+			"name": "Terrace Bay",
+			"code": "s0000023",
+			"prov": "ON"
+		},
+		{
+			"name": "Attawapiskat",
+			"code": "s0000024",
+			"prov": "ON"
+		},
+		{
+			"name": "Gogama",
+			"code": "s0000025",
+			"prov": "ON"
+		},
+		{
+			"name": "Maple Plains",
+			"code": "s0000026",
+			"prov": "PE"
+		},
+		{
+			"name": "Murdochville",
+			"code": "s0000027",
+			"prov": "QC"
+		},
+		{
+			"name": "Escoumins",
+			"code": "s0000028",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Michel-des-Saints",
+			"code": "s0000029",
+			"prov": "QC"
+		},
+		{
+			"name": "Rancheria",
+			"code": "s0000030",
+			"prov": "YT"
+		},
+		{
+			"name": "Dempster (Highway)",
+			"code": "s0000031",
+			"prov": "YT"
+		},
+		{
+			"name": "Burgeo",
+			"code": "s0000032",
+			"prov": "NL"
+		},
+		{
+			"name": "Bouctouche",
+			"code": "s0000033",
+			"prov": "NB"
+		},
+		{
+			"name": "Richibucto",
+			"code": "s0000034",
+			"prov": "NB"
+		},
+		{
+			"name": "Rogersville",
+			"code": "s0000035",
+			"prov": "NB"
+		},
+		{
+			"name": "Miramichi",
+			"code": "s0000036",
+			"prov": "NB"
+		},
+		{
+			"name": "Point Escuminac",
+			"code": "s0000037",
+			"prov": "NB"
+		},
+		{
+			"name": "Kouchibouguac",
+			"code": "s0000038",
+			"prov": "NB"
+		},
+		{
+			"name": "St. Lawrence",
+			"code": "s0000039",
+			"prov": "NL"
+		},
+		{
+			"name": "Parrsboro",
+			"code": "s0000040",
+			"prov": "NS"
+		},
+		{
+			"name": "Bonavista",
+			"code": "s0000041",
+			"prov": "NL"
+		},
+		{
+			"name": "Wreckhouse",
+			"code": "s0000042",
+			"prov": "NL"
+		},
+		{
+			"name": "Edmundston",
+			"code": "s0000043",
+			"prov": "NB"
+		},
+		{
+			"name": "Beauharnois",
+			"code": "s0000044",
+			"prov": "QC"
+		},
+		{
+			"name": "Edmonton",
+			"code": "s0000045",
+			"prov": "AB"
+		},
+		{
+			"name": "Candiac",
+			"code": "s0000046",
+			"prov": "QC"
+		},
+		{
+			"name": "Calgary",
+			"code": "s0000047",
+			"prov": "AB"
+		},
+		{
+			"name": "La Prairie",
+			"code": "s0000048",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Constant",
+			"code": "s0000049",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Catherine",
+			"code": "s0000050",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Rémi",
+			"code": "s0000051",
+			"prov": "QC"
+		},
+		{
+			"name": "Granby",
+			"code": "s0000052",
+			"prov": "QC"
+		},
+		{
+			"name": "Cowansville",
+			"code": "s0000053",
+			"prov": "QC"
+		},
+		{
+			"name": "Victoriaville",
+			"code": "s0000054",
+			"prov": "QC"
+		},
+		{
+			"name": "Prévost",
+			"code": "s0000055",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Sophie",
+			"code": "s0000056",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Lin-Laurentides",
+			"code": "s0000057",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Sauveur",
+			"code": "s0000058",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Hyacinthe",
+			"code": "s0000059",
+			"prov": "QC"
+		},
+		{
+			"name": "Marieville",
+			"code": "s0000060",
+			"prov": "QC"
+		},
+		{
+			"name": "Rigaud",
+			"code": "s0000061",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Lazare",
+			"code": "s0000062",
+			"prov": "QC"
+		},
+		{
+			"name": "Farnham",
+			"code": "s0000063",
+			"prov": "QC"
+		},
+		{
+			"name": "Thetford Mines",
+			"code": "s0000064",
+			"prov": "QC"
+		},
+		{
+			"name": "Kugaaruk",
+			"code": "s0000065",
+			"prov": "NU"
+		},
+		{
+			"name": "Highvale",
+			"code": "s0000066",
+			"prov": "AB"
+		},
+		{
+			"name": "Pelican Narrows",
+			"code": "s0000067",
+			"prov": "SK"
+		},
+		{
+			"name": "Strathmore",
+			"code": "s0000068",
+			"prov": "AB"
+		},
+		{
+			"name": "Hawkesbury",
+			"code": "s0000069",
+			"prov": "ON"
+		},
+		{
+			"name": "Alexandria",
+			"code": "s0000070",
+			"prov": "ON"
+		},
+		{
+			"name": "Cornwall",
+			"code": "s0000071",
+			"prov": "ON"
+		},
+		{
+			"name": "Morrisburg",
+			"code": "s0000072",
+			"prov": "ON"
+		},
+		{
+			"name": "Algonquin Park (Brent)",
+			"code": "s0000073",
+			"prov": "ON"
+		},
+		{
+			"name": "Algonquin Park (Lake of Two Rivers)",
+			"code": "s0000074",
+			"prov": "ON"
+		},
+		{
+			"name": "Oxtongue Lake",
+			"code": "s0000075",
+			"prov": "ON"
+		},
+		{
+			"name": "Welland",
+			"code": "s0000076",
+			"prov": "ON"
+		},
+		{
+			"name": "Winchester",
+			"code": "s0000077",
+			"prov": "ON"
+		},
+		{
+			"name": "Whistler",
+			"code": "s0000078",
+			"prov": "BC"
+		},
+		{
+			"name": "La Scie",
+			"code": "s0000079",
+			"prov": "NL"
+		},
+		{
+			"name": "Rondeau (Provincial Park)",
+			"code": "s0000080",
+			"prov": "ON"
+		},
+		{
+			"name": "Coronach",
+			"code": "s0000081",
+			"prov": "SK"
+		},
+		{
+			"name": "Placentia",
+			"code": "s0000082",
+			"prov": "NL"
+		},
+		{
+			"name": "Sundre",
+			"code": "s0000083",
+			"prov": "AB"
+		},
+		{
+			"name": "Halifax (Shearwater)",
+			"code": "s0000084",
+			"prov": "NS"
+		},
+		{
+			"name": "Témiscamingue",
+			"code": "s0000085",
+			"prov": "QC"
+		},
+		{
+			"name": "Indian Head",
+			"code": "s0000086",
+			"prov": "SK"
+		},
+		{
+			"name": "Fort Qu'Appelle",
+			"code": "s0000087",
+			"prov": "SK"
+		},
+		{
+			"name": "Killarney",
+			"code": "s0000088",
+			"prov": "ON"
+		},
+		{
+			"name": "New Glasgow",
+			"code": "s0000089",
+			"prov": "NS"
+		},
+		{
+			"name": "Caribou",
+			"code": "s0000090",
+			"prov": "NS"
+		},
+		{
+			"name": "Bachelors Island",
+			"code": "s0000091",
+			"prov": "MB"
+		},
+		{
+			"name": "Beaverlodge",
+			"code": "s0000092",
+			"prov": "AB"
+		},
+		{
+			"name": "Brooks",
+			"code": "s0000093",
+			"prov": "AB"
+		},
+		{
+			"name": "Mingan",
+			"code": "s0000094",
+			"prov": "QC"
+		},
+		{
+			"name": "Nipawin",
+			"code": "s0000095",
+			"prov": "SK"
+		},
+		{
+			"name": "Beaver Island",
+			"code": "s0000096",
+			"prov": "NS"
+		},
+		{
+			"name": "Port-Menier",
+			"code": "s0000097",
+			"prov": "QC"
+		},
+		{
+			"name": "Salaberry-de-Valleyfield",
+			"code": "s0000098",
+			"prov": "QC"
+		},
+		{
+			"name": "Huntingdon",
+			"code": "s0000099",
+			"prov": "QC"
+		},
+		{
+			"name": "Cartwright",
+			"code": "s0000100",
+			"prov": "NL"
+		},
+		{
+			"name": "Bloodvein",
+			"code": "s0000101",
+			"prov": "MB"
+		},
+		{
+			"name": "Berens River",
+			"code": "s0000102",
+			"prov": "MB"
+		},
+		{
+			"name": "Atikokan",
+			"code": "s0000103",
+			"prov": "ON"
+		},
+		{
+			"name": "Fort Frances",
+			"code": "s0000104",
+			"prov": "ON"
+		},
+		{
+			"name": "Mine Centre",
+			"code": "s0000105",
+			"prov": "ON"
+		},
+		{
+			"name": "100 Mile House",
+			"code": "s0000106",
+			"prov": "BC"
+		},
+		{
+			"name": "Clinton",
+			"code": "s0000107",
+			"prov": "BC"
+		},
+		{
+			"name": "Collingwood",
+			"code": "s0000108",
+			"prov": "ON"
+		},
+		{
+			"name": "Shelburne",
+			"code": "s0000109",
+			"prov": "NS"
+		},
+		{
+			"name": "Baccaro Point",
+			"code": "s0000110",
+			"prov": "NS"
+		},
+		{
+			"name": "Coronation",
+			"code": "s0000111",
+			"prov": "AB"
+		},
+		{
+			"name": "Englee",
+			"code": "s0000112",
+			"prov": "NL"
+		},
+		{
+			"name": "Uranium City",
+			"code": "s0000113",
+			"prov": "SK"
+		},
+		{
+			"name": "Port au Choix",
+			"code": "s0000114",
+			"prov": "NL"
+		},
+		{
+			"name": "Daniel's Harbour",
+			"code": "s0000115",
+			"prov": "NL"
+		},
+		{
+			"name": "Badger",
+			"code": "s0000116",
+			"prov": "NL"
+		},
+		{
+			"name": "Buchans",
+			"code": "s0000117",
+			"prov": "NL"
+		},
+		{
+			"name": "Grand Falls-Windsor",
+			"code": "s0000118",
+			"prov": "NL"
+		},
+		{
+			"name": "Willow Creek (Provincial Park)",
+			"code": "s0000119",
+			"prov": "AB"
+		},
+		{
+			"name": "Claresholm",
+			"code": "s0000120",
+			"prov": "AB"
+		},
+		{
+			"name": "Chevery",
+			"code": "s0000121",
+			"prov": "QC"
+		},
+		{
+			"name": "Twillingate",
+			"code": "s0000122",
+			"prov": "NL"
+		},
+		{
+			"name": "Manicouagan",
+			"code": "s0000123",
+			"prov": "QC"
+		},
+		{
+			"name": "La Tuque",
+			"code": "s0000124",
+			"prov": "QC"
+		},
+		{
+			"name": "Mauricie",
+			"code": "s0000125",
+			"prov": "QC"
+		},
+		{
+			"name": "Calgary (Olympic Park)",
+			"code": "s0000126",
+			"prov": "AB"
+		},
+		{
+			"name": "Upsala",
+			"code": "s0000127",
+			"prov": "ON"
+		},
+		{
+			"name": "St. Anthony",
+			"code": "s0000128",
+			"prov": "NL"
+		},
+		{
+			"name": "Drumheller",
+			"code": "s0000129",
+			"prov": "AB"
+		},
+		{
+			"name": "Pinawa",
+			"code": "s0000130",
+			"prov": "MB"
+		},
+		{
+			"name": "Whiteshell",
+			"code": "s0000131",
+			"prov": "MB"
+		},
+		{
+			"name": "Estevan Point",
+			"code": "s0000132",
+			"prov": "BC"
+		},
+		{
+			"name": "Shaunavon",
+			"code": "s0000133",
+			"prov": "SK"
+		},
+		{
+			"name": "Eastend",
+			"code": "s0000134",
+			"prov": "SK"
+		},
+		{
+			"name": "Virden",
+			"code": "s0000135",
+			"prov": "MB"
+		},
+		{
+			"name": "Melita",
+			"code": "s0000136",
+			"prov": "MB"
+		},
+		{
+			"name": "Turtle Mountain (Provincial Park)",
+			"code": "s0000137",
+			"prov": "MB"
+		},
+		{
+			"name": "East Point",
+			"code": "s0000138",
+			"prov": "PE"
+		},
+		{
+			"name": "Swan River",
+			"code": "s0000139",
+			"prov": "MB"
+		},
+		{
+			"name": "Eureka",
+			"code": "s0000140",
+			"prov": "NU"
+		},
+		{
+			"name": "Vancouver",
+			"code": "s0000141",
+			"prov": "BC"
+		},
+		{
+			"name": "L'Assomption",
+			"code": "s0000142",
+			"prov": "QC"
+		},
+		{
+			"name": "Berthierville",
+			"code": "s0000143",
+			"prov": "QC"
+		},
+		{
+			"name": "Contrecoeur",
+			"code": "s0000144",
+			"prov": "QC"
+		},
+		{
+			"name": "Mascouche",
+			"code": "s0000145",
+			"prov": "QC"
+		},
+		{
+			"name": "Prince George",
+			"code": "s0000146",
+			"prov": "BC"
+		},
+		{
+			"name": "Sorel-Tracy",
+			"code": "s0000147",
+			"prov": "QC"
+		},
+		{
+			"name": "Tracy",
+			"code": "s0000148",
+			"prov": "QC"
+		},
+		{
+			"name": "Le Gardeur",
+			"code": "s0000149",
+			"prov": "QC"
+		},
+		{
+			"name": "Morris",
+			"code": "s0000150",
+			"prov": "MB"
+		},
+		{
+			"name": "Steinbach",
+			"code": "s0000151",
+			"prov": "MB"
+		},
+		{
+			"name": "Dominion City",
+			"code": "s0000152",
+			"prov": "MB"
+		},
+		{
+			"name": "Emerson",
+			"code": "s0000153",
+			"prov": "MB"
+		},
+		{
+			"name": "Vita",
+			"code": "s0000154",
+			"prov": "MB"
+		},
+		{
+			"name": "Gulf Islands (Southern)",
+			"code": "s0000155",
+			"prov": "BC"
+		},
+		{
+			"name": "Elk Island (National Park)",
+			"code": "s0000156",
+			"prov": "AB"
+		},
+		{
+			"name": "Tisdale",
+			"code": "s0000157",
+			"prov": "SK"
+		},
+		{
+			"name": "Melfort",
+			"code": "s0000158",
+			"prov": "SK"
+		},
+		{
+			"name": "Cardston",
+			"code": "s0000159",
+			"prov": "AB"
+		},
+		{
+			"name": "Snow Lake",
+			"code": "s0000160",
+			"prov": "MB"
+		},
+		{
+			"name": "Pukatawagan",
+			"code": "s0000161",
+			"prov": "MB"
+		},
+		{
+			"name": "Nain",
+			"code": "s0000162",
+			"prov": "NL"
+		},
+		{
+			"name": "Sutton",
+			"code": "s0000163",
+			"prov": "QC"
+		},
+		{
+			"name": "Colville Lake",
+			"code": "s0000164",
+			"prov": "NT"
+		},
+		{
+			"name": "Goderich",
+			"code": "s0000165",
+			"prov": "ON"
+		},
+		{
+			"name": "Kincardine",
+			"code": "s0000166",
+			"prov": "ON"
+		},
+		{
+			"name": "Garden Creek",
+			"code": "s0000167",
+			"prov": "AB"
+		},
+		{
+			"name": "Brockville",
+			"code": "s0000168",
+			"prov": "ON"
+		},
+		{
+			"name": "Gananoque",
+			"code": "s0000169",
+			"prov": "ON"
+		},
+		{
+			"name": "Waterton Park",
+			"code": "s0000170",
+			"prov": "AB"
+		},
+		{
+			"name": "Altona",
+			"code": "s0000171",
+			"prov": "MB"
+		},
+		{
+			"name": "Gretna",
+			"code": "s0000172",
+			"prov": "MB"
+		},
+		{
+			"name": "Pemberton",
+			"code": "s0000173",
+			"prov": "BC"
+		},
+		{
+			"name": "Îles-de-la-Madeleine",
+			"code": "s0000174",
+			"prov": "QC"
+		},
+		{
+			"name": "Sparwood",
+			"code": "s0000175",
+			"prov": "BC"
+		},
+		{
+			"name": "Esther",
+			"code": "s0000176",
+			"prov": "AB"
+		},
+		{
+			"name": "Grise Fiord",
+			"code": "s0000177",
+			"prov": "NU"
+		},
+		{
+			"name": "Hunters Point",
+			"code": "s0000178",
+			"prov": "MB"
+		},
+		{
+			"name": "Three Hills",
+			"code": "s0000179",
+			"prov": "AB"
+		},
+		{
+			"name": "Varennes",
+			"code": "s0000180",
+			"prov": "QC"
+		},
+		{
+			"name": "Hopedale",
+			"code": "s0000181",
+			"prov": "NL"
+		},
+		{
+			"name": "Donnacona",
+			"code": "s0000182",
+			"prov": "QC"
+		},
+		{
+			"name": "Haines Junction",
+			"code": "s0000183",
+			"prov": "YT"
+		},
+		{
+			"name": "Beauceville",
+			"code": "s0000185",
+			"prov": "QC"
+		},
+		{
+			"name": "Lac-Mégantic",
+			"code": "s0000186",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Georges",
+			"code": "s0000187",
+			"prov": "QC"
+		},
+		{
+			"name": "Fort Providence",
+			"code": "s0000188",
+			"prov": "NT"
+		},
+		{
+			"name": "Pine Falls",
+			"code": "s0000189",
+			"prov": "MB"
+		},
+		{
+			"name": "Victoria Beach",
+			"code": "s0000190",
+			"prov": "MB"
+		},
+		{
+			"name": "Grand Beach",
+			"code": "s0000191",
+			"prov": "MB"
+		},
+		{
+			"name": "Broadview",
+			"code": "s0000192",
+			"prov": "SK"
+		},
+		{
+			"name": "Winnipeg",
+			"code": "s0000193",
+			"prov": "MB"
+		},
+		{
+			"name": "Charlevoix",
+			"code": "s0000194",
+			"prov": "QC"
+		},
+		{
+			"name": "Watrous",
+			"code": "s0000195",
+			"prov": "SK"
+		},
+		{
+			"name": "Humboldt",
+			"code": "s0000196",
+			"prov": "SK"
+		},
+		{
+			"name": "Alma",
+			"code": "s0000197",
+			"prov": "QC"
+		},
+		{
+			"name": "Mount Carleton (Provincial Park)",
+			"code": "s0000198",
+			"prov": "NB"
+		},
+		{
+			"name": "Saint-Quentin",
+			"code": "s0000199",
+			"prov": "NB"
+		},
+		{
+			"name": "St. Leonard",
+			"code": "s0000200",
+			"prov": "NB"
+		},
+		{
+			"name": "Grand Falls",
+			"code": "s0000201",
+			"prov": "NB"
+		},
+		{
+			"name": "Saint-Jean-sur-Richelieu",
+			"code": "s0000202",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Luc",
+			"code": "s0000203",
+			"prov": "QC"
+		},
+		{
+			"name": "Vanier",
+			"code": "s0000204",
+			"prov": "QC"
+		},
+		{
+			"name": "Bernières",
+			"code": "s0000205",
+			"prov": "QC"
+		},
+		{
+			"name": "Ennadai",
+			"code": "s0000206",
+			"prov": "NU"
+		},
+		{
+			"name": "Grand Rapids",
+			"code": "s0000207",
+			"prov": "MB"
+		},
+		{
+			"name": "Southend Reindeer",
+			"code": "s0000208",
+			"prov": "SK"
+		},
+		{
+			"name": "Assiniboia",
+			"code": "s0000209",
+			"prov": "SK"
+		},
+		{
+			"name": "Fort Liard",
+			"code": "s0000210",
+			"prov": "NT"
+		},
+		{
+			"name": "Saguenay",
+			"code": "s0000211",
+			"prov": "QC"
+		},
+		{
+			"name": "Creston",
+			"code": "s0000212",
+			"prov": "BC"
+		},
+		{
+			"name": "Mont-Tremblant",
+			"code": "s0000213",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Agathe",
+			"code": "s0000214",
+			"prov": "QC"
+		},
+		{
+			"name": "Vernon",
+			"code": "s0000216",
+			"prov": "BC"
+		},
+		{
+			"name": "Hinton",
+			"code": "s0000217",
+			"prov": "AB"
+		},
+		{
+			"name": "Jasper",
+			"code": "s0000218",
+			"prov": "AB"
+		},
+		{
+			"name": "Leader",
+			"code": "s0000219",
+			"prov": "SK"
+		},
+		{
+			"name": "Marble Mountain",
+			"code": "s0000220",
+			"prov": "NL"
+		},
+		{
+			"name": "Corner Brook",
+			"code": "s0000221",
+			"prov": "NL"
+		},
+		{
+			"name": "Lillooet",
+			"code": "s0000222",
+			"prov": "BC"
+		},
+		{
+			"name": "Kejimkujik (National Park)",
+			"code": "s0000223",
+			"prov": "NS"
+		},
+		{
+			"name": "Malahat",
+			"code": "s0000224",
+			"prov": "BC"
+		},
+		{
+			"name": "Rockglen",
+			"code": "s0000225",
+			"prov": "SK"
+		},
+		{
+			"name": "Hope Slide",
+			"code": "s0000226",
+			"prov": "BC"
+		},
+		{
+			"name": "Dease Lake",
+			"code": "s0000227",
+			"prov": "BC"
+		},
+		{
+			"name": "Cassiar",
+			"code": "s0000228",
+			"prov": "BC"
+		},
+		{
+			"name": "Lac La Biche",
+			"code": "s0000229",
+			"prov": "AB"
+		},
+		{
+			"name": "Lucky Lake",
+			"code": "s0000230",
+			"prov": "SK"
+		},
+		{
+			"name": "Ogoki",
+			"code": "s0000231",
+			"prov": "ON"
+		},
+		{
+			"name": "Webequie",
+			"code": "s0000232",
+			"prov": "ON"
+		},
+		{
+			"name": "Lansdowne House",
+			"code": "s0000233",
+			"prov": "ON"
+		},
+		{
+			"name": "Gonzales Point",
+			"code": "s0000234",
+			"prov": "BC"
+		},
+		{
+			"name": "Wingham",
+			"code": "s0000235",
+			"prov": "ON"
+		},
+		{
+			"name": "Walkerton",
+			"code": "s0000236",
+			"prov": "ON"
+		},
+		{
+			"name": "Dundalk",
+			"code": "s0000237",
+			"prov": "ON"
+		},
+		{
+			"name": "North Perth",
+			"code": "s0000238",
+			"prov": "ON"
+		},
+		{
+			"name": "Shelburne",
+			"code": "s0000239",
+			"prov": "ON"
+		},
+		{
+			"name": "Mount Forest",
+			"code": "s0000240",
+			"prov": "ON"
+		},
+		{
+			"name": "Waskesiu Lake",
+			"code": "s0000241",
+			"prov": "SK"
+		},
+		{
+			"name": "Lytton",
+			"code": "s0000242",
+			"prov": "BC"
+		},
+		{
+			"name": "Miscou Island",
+			"code": "s0000243",
+			"prov": "NB"
+		},
+		{
+			"name": "Maniwaki",
+			"code": "s0000244",
+			"prov": "QC"
+		},
+		{
+			"name": "La Vérendrye (Réserve faunique)",
+			"code": "s0000245",
+			"prov": "QC"
+		},
+		{
+			"name": "Mont-Laurier",
+			"code": "s0000246",
+			"prov": "QC"
+		},
+		{
+			"name": "Pitt Meadows",
+			"code": "s0000247",
+			"prov": "BC"
+		},
+		{
+			"name": "Maple Creek",
+			"code": "s0000248",
+			"prov": "SK"
+		},
+		{
+			"name": "Whati",
+			"code": "s0000249",
+			"prov": "NT"
+		},
+		{
+			"name": "Fredericton",
+			"code": "s0000250",
+			"prov": "NB"
+		},
+		{
+			"name": "Cobourg",
+			"code": "s0000251",
+			"prov": "ON"
+		},
+		{
+			"name": "North Cape",
+			"code": "s0000252",
+			"prov": "PE"
+		},
+		{
+			"name": "Rivière-du-Loup",
+			"code": "s0000253",
+			"prov": "QC"
+		},
+		{
+			"name": "Trois-Pistoles",
+			"code": "s0000254",
+			"prov": "QC"
+		},
+		{
+			"name": "Temiscouata",
+			"code": "s0000255",
+			"prov": "QC"
+		},
+		{
+			"name": "Deerwood",
+			"code": "s0000256",
+			"prov": "MB"
+		},
+		{
+			"name": "Carman",
+			"code": "s0000257",
+			"prov": "MB"
+		},
+		{
+			"name": "Nelson",
+			"code": "s0000258",
+			"prov": "BC"
+		},
+		{
+			"name": "Nakusp",
+			"code": "s0000259",
+			"prov": "BC"
+		},
+		{
+			"name": "Nicolet",
+			"code": "s0000260",
+			"prov": "QC"
+		},
+		{
+			"name": "Drummondville",
+			"code": "s0000261",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Nicéphore",
+			"code": "s0000262",
+			"prov": "QC"
+		},
+		{
+			"name": "Kananaskis (Nakiska Ridgetop)",
+			"code": "s0000263",
+			"prov": "AB"
+		},
+		{
+			"name": "North East Margaree",
+			"code": "s0000264",
+			"prov": "NS"
+		},
+		{
+			"name": "Baddeck",
+			"code": "s0000265",
+			"prov": "NS"
+		},
+		{
+			"name": "Hearst",
+			"code": "s0000266",
+			"prov": "ON"
+		},
+		{
+			"name": "Hornepayne",
+			"code": "s0000267",
+			"prov": "ON"
+		},
+		{
+			"name": "New Carlisle",
+			"code": "s0000268",
+			"prov": "QC"
+		},
+		{
+			"name": "Bonaventure",
+			"code": "s0000269",
+			"prov": "QC"
+		},
+		{
+			"name": "Dolbeau-Mistassini",
+			"code": "s0000270",
+			"prov": "QC"
+		},
+		{
+			"name": "Onefour",
+			"code": "s0000272",
+			"prov": "AB"
+		},
+		{
+			"name": "Oak Point",
+			"code": "s0000273",
+			"prov": "MB"
+		},
+		{
+			"name": "Elbow",
+			"code": "s0000274",
+			"prov": "SK"
+		},
+		{
+			"name": "Dawson",
+			"code": "s0000275",
+			"prov": "YT"
+		},
+		{
+			"name": "McCreary",
+			"code": "s0000276",
+			"prov": "MB"
+		},
+		{
+			"name": "Breton",
+			"code": "s0000277",
+			"prov": "AB"
+		},
+		{
+			"name": "Wynyard",
+			"code": "s0000278",
+			"prov": "SK"
+		},
+		{
+			"name": "Hendrickson Creek",
+			"code": "s0000279",
+			"prov": "AB"
+		},
+		{
+			"name": "St. John's",
+			"code": "s0000280",
+			"prov": "NL"
+		},
+		{
+			"name": "Midland",
+			"code": "s0000281",
+			"prov": "ON"
+		},
+		{
+			"name": "Fort Erie",
+			"code": "s0000282",
+			"prov": "ON"
+		},
+		{
+			"name": "Port Colborne",
+			"code": "s0000283",
+			"prov": "ON"
+		},
+		{
+			"name": "Laurentides (Réserve faunique)",
+			"code": "s0000284",
+			"prov": "QC"
+		},
+		{
+			"name": "Point Lepreau",
+			"code": "s0000285",
+			"prov": "NB"
+		},
+		{
+			"name": "Esquimalt",
+			"code": "s0000286",
+			"prov": "BC"
+		},
+		{
+			"name": "Parent",
+			"code": "s0000287",
+			"prov": "QC"
+		},
+		{
+			"name": "Gouin (Réservoir)",
+			"code": "s0000288",
+			"prov": "QC"
+		},
+		{
+			"name": "Pilot Mound",
+			"code": "s0000289",
+			"prov": "MB"
+		},
+		{
+			"name": "Terrebonne",
+			"code": "s0000290",
+			"prov": "QC"
+		},
+		{
+			"name": "Princeton",
+			"code": "s0000291",
+			"prov": "BC"
+		},
+		{
+			"name": "Puntzi Mountain",
+			"code": "s0000292",
+			"prov": "BC"
+		},
+		{
+			"name": "Burns Lake",
+			"code": "s0000293",
+			"prov": "BC"
+		},
+		{
+			"name": "Port Alberni",
+			"code": "s0000294",
+			"prov": "BC"
+		},
+		{
+			"name": "Tadoussac",
+			"code": "s0000295",
+			"prov": "QC"
+		},
+		{
+			"name": "Coaticook",
+			"code": "s0000296",
+			"prov": "QC"
+		},
+		{
+			"name": "Lacombe",
+			"code": "s0000297",
+			"prov": "AB"
+		},
+		{
+			"name": "Cape Race",
+			"code": "s0000298",
+			"prov": "NL"
+		},
+		{
+			"name": "Red Earth Creek",
+			"code": "s0000299",
+			"prov": "AB"
+		},
+		{
+			"name": "Rosetown",
+			"code": "s0000300",
+			"prov": "SK"
+		},
+		{
+			"name": "Bancroft",
+			"code": "s0000301",
+			"prov": "ON"
+		},
+		{
+			"name": "Barry's Bay",
+			"code": "s0000302",
+			"prov": "ON"
+		},
+		{
+			"name": "Haliburton",
+			"code": "s0000303",
+			"prov": "ON"
+		},
+		{
+			"name": "Apsley",
+			"code": "s0000304",
+			"prov": "ON"
+		},
+		{
+			"name": "Kaladar",
+			"code": "s0000305",
+			"prov": "ON"
+		},
+		{
+			"name": "Rocky Mountain House",
+			"code": "s0000306",
+			"prov": "AB"
+		},
+		{
+			"name": "St. Peter's",
+			"code": "s0000307",
+			"prov": "NS"
+		},
+		{
+			"name": "Hart Island",
+			"code": "s0000308",
+			"prov": "NS"
+		},
+		{
+			"name": "Rock River",
+			"code": "s0000309",
+			"prov": "YT"
+		},
+		{
+			"name": "Crowsnest",
+			"code": "s0000310",
+			"prov": "AB"
+		},
+		{
+			"name": "Camrose",
+			"code": "s0000311",
+			"prov": "AB"
+		},
+		{
+			"name": "Wetaskiwin",
+			"code": "s0000312",
+			"prov": "AB"
+		},
+		{
+			"name": "Milk River",
+			"code": "s0000313",
+			"prov": "AB"
+		},
+		{
+			"name": "Percé",
+			"code": "s0000314",
+			"prov": "QC"
+		},
+		{
+			"name": "Chandler",
+			"code": "s0000315",
+			"prov": "QC"
+		},
+		{
+			"name": "Gibsons",
+			"code": "s0000316",
+			"prov": "BC"
+		},
+		{
+			"name": "Sechelt",
+			"code": "s0000317",
+			"prov": "BC"
+		},
+		{
+			"name": "Halifax",
+			"code": "s0000318",
+			"prov": "NS"
+		},
+		{
+			"name": "Grande-Vallée",
+			"code": "s0000319",
+			"prov": "QC"
+		},
+		{
+			"name": "Cap Chat",
+			"code": "s0000320",
+			"prov": "QC"
+		},
+		{
+			"name": "Gaspésie (Parc national)",
+			"code": "s0000321",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Anne-Des-Monts",
+			"code": "s0000322",
+			"prov": "QC"
+		},
+		{
+			"name": "Squamish",
+			"code": "s0000323",
+			"prov": "BC"
+		},
+		{
+			"name": "Salmon Arm",
+			"code": "s0000324",
+			"prov": "BC"
+		},
+		{
+			"name": "Stratford",
+			"code": "s0000325",
+			"prov": "ON"
+		},
+		{
+			"name": "London",
+			"code": "s0000326",
+			"prov": "ON"
+		},
+		{
+			"name": "Woodstock",
+			"code": "s0000327",
+			"prov": "ON"
+		},
+		{
+			"name": "Strathroy",
+			"code": "s0000328",
+			"prov": "ON"
+		},
+		{
+			"name": "St. Thomas",
+			"code": "s0000329",
+			"prov": "ON"
+		},
+		{
+			"name": "Spiritwood",
+			"code": "s0000330",
+			"prov": "SK"
+		},
+		{
+			"name": "Saint Andrews",
+			"code": "s0000331",
+			"prov": "NB"
+		},
+		{
+			"name": "St. Stephen",
+			"code": "s0000332",
+			"prov": "NB"
+		},
+		{
+			"name": "La Malbaie",
+			"code": "s0000333",
+			"prov": "QC"
+		},
+		{
+			"name": "Montmagny",
+			"code": "s0000334",
+			"prov": "QC"
+		},
+		{
+			"name": "Kamouraska",
+			"code": "s0000335",
+			"prov": "QC"
+		},
+		{
+			"name": "L'Islet",
+			"code": "s0000336",
+			"prov": "QC"
+		},
+		{
+			"name": "Sprague",
+			"code": "s0000337",
+			"prov": "MB"
+		},
+		{
+			"name": "Sachs Harbour",
+			"code": "s0000338",
+			"prov": "NT"
+		},
+		{
+			"name": "Fisher Branch",
+			"code": "s0000339",
+			"prov": "MB"
+		},
+		{
+			"name": "Sambaa K'e",
+			"code": "s0000340",
+			"prov": "NT"
+		},
+		{
+			"name": "Tetsa River (Provincial Park)",
+			"code": "s0000341",
+			"prov": "BC"
+		},
+		{
+			"name": "Baie-Saint-Paul",
+			"code": "s0000342",
+			"prov": "QC"
+		},
+		{
+			"name": "Biggar",
+			"code": "s0000343",
+			"prov": "SK"
+		},
+		{
+			"name": "Scott",
+			"code": "s0000344",
+			"prov": "SK"
+		},
+		{
+			"name": "Magog",
+			"code": "s0000345",
+			"prov": "QC"
+		},
+		{
+			"name": "Trois-Rivières",
+			"code": "s0000346",
+			"prov": "QC"
+		},
+		{
+			"name": "Bécancour",
+			"code": "s0000347",
+			"prov": "QC"
+		},
+		{
+			"name": "Louiseville",
+			"code": "s0000348",
+			"prov": "QC"
+		},
+		{
+			"name": "Faro",
+			"code": "s0000349",
+			"prov": "YT"
+		},
+		{
+			"name": "Ross River",
+			"code": "s0000350",
+			"prov": "YT"
+		},
+		{
+			"name": "Summerland",
+			"code": "s0000351",
+			"prov": "BC"
+		},
+		{
+			"name": "Shoal Lake",
+			"code": "s0000352",
+			"prov": "MB"
+		},
+		{
+			"name": "Rouyn-Noranda",
+			"code": "s0000353",
+			"prov": "QC"
+		},
+		{
+			"name": "La Sarre",
+			"code": "s0000354",
+			"prov": "QC"
+		},
+		{
+			"name": "Swift Current",
+			"code": "s0000355",
+			"prov": "SK"
+		},
+		{
+			"name": "Vegreville",
+			"code": "s0000356",
+			"prov": "AB"
+		},
+		{
+			"name": "Val Marie",
+			"code": "s0000357",
+			"prov": "SK"
+		},
+		{
+			"name": "Vauxhall",
+			"code": "s0000358",
+			"prov": "AB"
+		},
+		{
+			"name": "Taber",
+			"code": "s0000359",
+			"prov": "AB"
+		},
+		{
+			"name": "Cypress Hills (Provincial Park)",
+			"code": "s0000360",
+			"prov": "SK"
+		},
+		{
+			"name": "Deux-Montagnes",
+			"code": "s0000361",
+			"prov": "QC"
+		},
+		{
+			"name": "Vaudreuil-Dorion",
+			"code": "s0000362",
+			"prov": "QC"
+		},
+		{
+			"name": "Pincourt",
+			"code": "s0000363",
+			"prov": "QC"
+		},
+		{
+			"name": "Digby",
+			"code": "s0000364",
+			"prov": "NS"
+		},
+		{
+			"name": "Brier Island",
+			"code": "s0000365",
+			"prov": "NS"
+		},
+		{
+			"name": "Yellowknife",
+			"code": "s0000366",
+			"prov": "NT"
+		},
+		{
+			"name": "Oakville",
+			"code": "s0000367",
+			"prov": "ON"
+		},
+		{
+			"name": "Burlington",
+			"code": "s0000368",
+			"prov": "ON"
+		},
+		{
+			"name": "Collins Bay",
+			"code": "s0000369",
+			"prov": "SK"
+		},
+		{
+			"name": "Western Head",
+			"code": "s0000370",
+			"prov": "NS"
+		},
+		{
+			"name": "Liverpool",
+			"code": "s0000371",
+			"prov": "NS"
+		},
+		{
+			"name": "Weyburn",
+			"code": "s0000372",
+			"prov": "SK"
+		},
+		{
+			"name": "White Rock",
+			"code": "s0000373",
+			"prov": "BC"
+		},
+		{
+			"name": "Peawanuck",
+			"code": "s0000374",
+			"prov": "ON"
+		},
+		{
+			"name": "Wasagaming",
+			"code": "s0000375",
+			"prov": "MB"
+		},
+		{
+			"name": "Muncho Lake",
+			"code": "s0000376",
+			"prov": "BC"
+		},
+		{
+			"name": "Liard River",
+			"code": "s0000377",
+			"prov": "BC"
+		},
+		{
+			"name": "Poplar River",
+			"code": "s0000378",
+			"prov": "MB"
+		},
+		{
+			"name": "Bow Valley (Provincial Park)",
+			"code": "s0000379",
+			"prov": "AB"
+		},
+		{
+			"name": "Roblin",
+			"code": "s0000380",
+			"prov": "MB"
+		},
+		{
+			"name": "Last Mountain Lake (Sanctuary)",
+			"code": "s0000381",
+			"prov": "SK"
+		},
+		{
+			"name": "Bow Island",
+			"code": "s0000382",
+			"prov": "AB"
+		},
+		{
+			"name": "High River",
+			"code": "s0000383",
+			"prov": "AB"
+		},
+		{
+			"name": "Stavely",
+			"code": "s0000384",
+			"prov": "AB"
+		},
+		{
+			"name": "Tracadie-Sheila",
+			"code": "s0000385",
+			"prov": "NB"
+		},
+		{
+			"name": "Bas-Caraquet",
+			"code": "s0000386",
+			"prov": "NB"
+		},
+		{
+			"name": "Outlook",
+			"code": "s0000387",
+			"prov": "SK"
+		},
+		{
+			"name": "Gameti",
+			"code": "s0000388",
+			"prov": "NT"
+		},
+		{
+			"name": "Indin River",
+			"code": "s0000389",
+			"prov": "NT"
+		},
+		{
+			"name": "Victoria (University of)",
+			"code": "s0000390",
+			"prov": "BC"
+		},
+		{
+			"name": "Kootenay (National Park)",
+			"code": "s0000391",
+			"prov": "BC"
+		},
+		{
+			"name": "Yoho (National Park)",
+			"code": "s0000392",
+			"prov": "BC"
+		},
+		{
+			"name": "Rimouski",
+			"code": "s0000393",
+			"prov": "QC"
+		},
+		{
+			"name": "Iqaluit",
+			"code": "s0000394",
+			"prov": "NU"
+		},
+		{
+			"name": "Gull Bay",
+			"code": "s0000395",
+			"prov": "ON"
+		},
+		{
+			"name": "Rock Creek",
+			"code": "s0000396",
+			"prov": "BC"
+		},
+		{
+			"name": "Osoyoos",
+			"code": "s0000397",
+			"prov": "BC"
+		},
+		{
+			"name": "Chilliwack",
+			"code": "s0000398",
+			"prov": "BC"
+		},
+		{
+			"name": "Agassiz",
+			"code": "s0000399",
+			"prov": "BC"
+		},
+		{
+			"name": "Channel-Port aux Basques",
+			"code": "s0000400",
+			"prov": "NL"
+		},
+		{
+			"name": "Carberry",
+			"code": "s0000401",
+			"prov": "MB"
+		},
+		{
+			"name": "Shilo",
+			"code": "s0000402",
+			"prov": "MB"
+		},
+		{
+			"name": "Canmore",
+			"code": "s0000403",
+			"prov": "AB"
+		},
+		{
+			"name": "Banff",
+			"code": "s0000404",
+			"prov": "AB"
+		},
+		{
+			"name": "Grand Étang",
+			"code": "s0000405",
+			"prov": "NS"
+		},
+		{
+			"name": "Amqui",
+			"code": "s0000406",
+			"prov": "QC"
+		},
+		{
+			"name": "Matapedia",
+			"code": "s0000407",
+			"prov": "QC"
+		},
+		{
+			"name": "Vallée de la Matapédia",
+			"code": "s0000408",
+			"prov": "QC"
+		},
+		{
+			"name": "Atlin",
+			"code": "s0000409",
+			"prov": "BC"
+		},
+		{
+			"name": "Teslin",
+			"code": "s0000410",
+			"prov": "YT"
+		},
+		{
+			"name": "Thunder Bay",
+			"code": "s0000411",
+			"prov": "ON"
+		},
+		{
+			"name": "Arctic Bay",
+			"code": "s0000412",
+			"prov": "NU"
+		},
+		{
+			"name": "Barrhead",
+			"code": "s0000413",
+			"prov": "AB"
+		},
+		{
+			"name": "Orillia",
+			"code": "s0000414",
+			"prov": "ON"
+		},
+		{
+			"name": "Barrie",
+			"code": "s0000415",
+			"prov": "ON"
+		},
+		{
+			"name": "Lévis",
+			"code": "s0000416",
+			"prov": "QC"
+		},
+		{
+			"name": "Tadoule Lake",
+			"code": "s0000417",
+			"prov": "MB"
+		},
+		{
+			"name": "Greenstone (Beardmore)",
+			"code": "s0000418",
+			"prov": "ON"
+		},
+		{
+			"name": "Nipigon",
+			"code": "s0000419",
+			"prov": "ON"
+		},
+		{
+			"name": "Chéticamp",
+			"code": "s0000420",
+			"prov": "NS"
+		},
+		{
+			"name": "Carmacks",
+			"code": "s0000421",
+			"prov": "YT"
+		},
+		{
+			"name": "Tobermory",
+			"code": "s0000422",
+			"prov": "ON"
+		},
+		{
+			"name": "Deline",
+			"code": "s0000423",
+			"prov": "NT"
+		},
+		{
+			"name": "Simcoe",
+			"code": "s0000424",
+			"prov": "ON"
+		},
+		{
+			"name": "Tillsonburg",
+			"code": "s0000425",
+			"prov": "ON"
+		},
+		{
+			"name": "Norfolk",
+			"code": "s0000426",
+			"prov": "ON"
+		},
+		{
+			"name": "Westlock",
+			"code": "s0000427",
+			"prov": "AB"
+		},
+		{
+			"name": "Ear Falls",
+			"code": "s0000428",
+			"prov": "ON"
+		},
+		{
+			"name": "New Tecumseth",
+			"code": "s0000429",
+			"prov": "ON"
+		},
+		{
+			"name": "Ottawa (Kanata - Orléans)",
+			"code": "s0000430",
+			"prov": "ON"
+		},
+		{
+			"name": "Leamington",
+			"code": "s0000431",
+			"prov": "ON"
+		},
+		{
+			"name": "Ulukhaktok",
+			"code": "s0000432",
+			"prov": "NT"
+		},
+		{
+			"name": "Ingonish",
+			"code": "s0000433",
+			"prov": "NS"
+		},
+		{
+			"name": "Smiths Falls",
+			"code": "s0000434",
+			"prov": "ON"
+		},
+		{
+			"name": "Sharbot Lake",
+			"code": "s0000435",
+			"prov": "ON"
+		},
+		{
+			"name": "Kemptville",
+			"code": "s0000436",
+			"prov": "ON"
+		},
+		{
+			"name": "Kirkland Lake",
+			"code": "s0000437",
+			"prov": "ON"
+		},
+		{
+			"name": "Windsor",
+			"code": "s0000438",
+			"prov": "NS"
+		},
+		{
+			"name": "Kentville",
+			"code": "s0000439",
+			"prov": "NS"
+		},
+		{
+			"name": "Lunenburg",
+			"code": "s0000440",
+			"prov": "NS"
+		},
+		{
+			"name": "Bridgewater",
+			"code": "s0000441",
+			"prov": "NS"
+		},
+		{
+			"name": "Wekweeti",
+			"code": "s0000442",
+			"prov": "NT"
+		},
+		{
+			"name": "Lutselke",
+			"code": "s0000443",
+			"prov": "NT"
+		},
+		{
+			"name": "Morden",
+			"code": "s0000444",
+			"prov": "MB"
+		},
+		{
+			"name": "Winkler",
+			"code": "s0000445",
+			"prov": "MB"
+		},
+		{
+			"name": "Sheet Harbour",
+			"code": "s0000446",
+			"prov": "NS"
+		},
+		{
+			"name": "Malay Falls",
+			"code": "s0000447",
+			"prov": "NS"
+		},
+		{
+			"name": "Nordegg",
+			"code": "s0000448",
+			"prov": "AB"
+		},
+		{
+			"name": "Sackville",
+			"code": "s0000449",
+			"prov": "NB"
+		},
+		{
+			"name": "Amherst",
+			"code": "s0000450",
+			"prov": "NS"
+		},
+		{
+			"name": "Parry Sound",
+			"code": "s0000451",
+			"prov": "ON"
+		},
+		{
+			"name": "Dunchurch",
+			"code": "s0000452",
+			"prov": "ON"
+		},
+		{
+			"name": "Stony Plain",
+			"code": "s0000453",
+			"prov": "AB"
+		},
+		{
+			"name": "Chatham-Kent",
+			"code": "s0000454",
+			"prov": "ON"
+		},
+		{
+			"name": "Rodney",
+			"code": "s0000455",
+			"prov": "ON"
+		},
+		{
+			"name": "Rocky Harbour",
+			"code": "s0000456",
+			"prov": "NL"
+		},
+		{
+			"name": "Gros Morne",
+			"code": "s0000457",
+			"prov": "NL"
+		},
+		{
+			"name": "Toronto",
+			"code": "s0000458",
+			"prov": "ON"
+		},
+		{
+			"name": "Lanaudière",
+			"code": "s0000459",
+			"prov": "QC"
+		},
+		{
+			"name": "Port Hawkesbury",
+			"code": "s0000460",
+			"prov": "NS"
+		},
+		{
+			"name": "Tracadie",
+			"code": "s0000461",
+			"prov": "NS"
+		},
+		{
+			"name": "Antigonish",
+			"code": "s0000462",
+			"prov": "NS"
+		},
+		{
+			"name": "Cape George",
+			"code": "s0000463",
+			"prov": "NS"
+		},
+		{
+			"name": "Guysborough",
+			"code": "s0000464",
+			"prov": "NS"
+		},
+		{
+			"name": "Tatlayoko Lake",
+			"code": "s0000465",
+			"prov": "BC"
+		},
+		{
+			"name": "Clarenville",
+			"code": "s0000466",
+			"prov": "NL"
+		},
+		{
+			"name": "Terra Nova (National Park)",
+			"code": "s0000467",
+			"prov": "NL"
+		},
+		{
+			"name": "Drayton Valley",
+			"code": "s0000468",
+			"prov": "AB"
+		},
+		{
+			"name": "Vineland",
+			"code": "s0000469",
+			"prov": "ON"
+		},
+		{
+			"name": "Lincoln",
+			"code": "s0000470",
+			"prov": "ON"
+		},
+		{
+			"name": "Trail",
+			"code": "s0000471",
+			"prov": "BC"
+		},
+		{
+			"name": "Winnipeg (The Forks)",
+			"code": "s0000472",
+			"prov": "MB"
+		},
+		{
+			"name": "Winterland",
+			"code": "s0000473",
+			"prov": "NL"
+		},
+		{
+			"name": "Marystown",
+			"code": "s0000474",
+			"prov": "NL"
+		},
+		{
+			"name": "Grand Bank",
+			"code": "s0000475",
+			"prov": "NL"
+		},
+		{
+			"name": "Nahanni Butte",
+			"code": "s0000476",
+			"prov": "NT"
+		},
+		{
+			"name": "Whitecourt",
+			"code": "s0000477",
+			"prov": "AB"
+		},
+		{
+			"name": "La Grande-Quatre",
+			"code": "s0000478",
+			"prov": "QC"
+		},
+		{
+			"name": "Sault Ste. Marie",
+			"code": "s0000479",
+			"prov": "ON"
+		},
+		{
+			"name": "Kangirsuk",
+			"code": "s0000480",
+			"prov": "QC"
+		},
+		{
+			"name": "Tofino",
+			"code": "s0000481",
+			"prov": "BC"
+		},
+		{
+			"name": "Ucluelet",
+			"code": "s0000482",
+			"prov": "BC"
+		},
+		{
+			"name": "Baie-Comeau",
+			"code": "s0000483",
+			"prov": "QC"
+		},
+		{
+			"name": "Forestville",
+			"code": "s0000484",
+			"prov": "QC"
+		},
+		{
+			"name": "Bella Coola",
+			"code": "s0000485",
+			"prov": "BC"
+		},
+		{
+			"name": "Bagotville",
+			"code": "s0000486",
+			"prov": "QC"
+		},
+		{
+			"name": "Baker Lake",
+			"code": "s0000487",
+			"prov": "NU"
+		},
+		{
+			"name": "Campbell River",
+			"code": "s0000488",
+			"prov": "BC"
+		},
+		{
+			"name": "Alliston",
+			"code": "s0000489",
+			"prov": "ON"
+		},
+		{
+			"name": "Minnedosa",
+			"code": "s0000490",
+			"prov": "MB"
+		},
+		{
+			"name": "Souris",
+			"code": "s0000491",
+			"prov": "MB"
+		},
+		{
+			"name": "Brandon",
+			"code": "s0000492",
+			"prov": "MB"
+		},
+		{
+			"name": "Cochrane",
+			"code": "s0000493",
+			"prov": "AB"
+		},
+		{
+			"name": "Blanc-Sablon",
+			"code": "s0000494",
+			"prov": "QC"
+		},
+		{
+			"name": "Cambridge Bay",
+			"code": "s0000495",
+			"prov": "NU"
+		},
+		{
+			"name": "Nanaimo",
+			"code": "s0000496",
+			"prov": "BC"
+		},
+		{
+			"name": "Castlegar",
+			"code": "s0000497",
+			"prov": "BC"
+		},
+		{
+			"name": "Kugluktuk",
+			"code": "s0000498",
+			"prov": "NU"
+		},
+		{
+			"name": "Blue River",
+			"code": "s0000499",
+			"prov": "BC"
+		},
+		{
+			"name": "Chetwynd",
+			"code": "s0000500",
+			"prov": "BC"
+		},
+		{
+			"name": "Chesterfield",
+			"code": "s0000501",
+			"prov": "NU"
+		},
+		{
+			"name": "Chipman",
+			"code": "s0000502",
+			"prov": "NB"
+		},
+		{
+			"name": "Doaktown",
+			"code": "s0000503",
+			"prov": "NB"
+		},
+		{
+			"name": "Clyde River",
+			"code": "s0000504",
+			"prov": "NU"
+		},
+		{
+			"name": "Kluane Lake",
+			"code": "s0000505",
+			"prov": "YT"
+		},
+		{
+			"name": "Burwash Landing",
+			"code": "s0000506",
+			"prov": "YT"
+		},
+		{
+			"name": "Deer Lake",
+			"code": "s0000507",
+			"prov": "NL"
+		},
+		{
+			"name": "Dauphin",
+			"code": "s0000508",
+			"prov": "MB"
+		},
+		{
+			"name": "Dawson Creek",
+			"code": "s0000509",
+			"prov": "BC"
+		},
+		{
+			"name": "Edmonton (Int'l Aprt)",
+			"code": "s0000510",
+			"prov": "AB"
+		},
+		{
+			"name": "Arviat",
+			"code": "s0000511",
+			"prov": "NU"
+		},
+		{
+			"name": "Elliot Lake",
+			"code": "s0000512",
+			"prov": "ON"
+		},
+		{
+			"name": "Blind River",
+			"code": "s0000513",
+			"prov": "ON"
+		},
+		{
+			"name": "Oxbow",
+			"code": "s0000514",
+			"prov": "SK"
+		},
+		{
+			"name": "Carlyle",
+			"code": "s0000515",
+			"prov": "SK"
+		},
+		{
+			"name": "Estevan",
+			"code": "s0000516",
+			"prov": "SK"
+		},
+		{
+			"name": "Fort Severn",
+			"code": "s0000517",
+			"prov": "ON"
+		},
+		{
+			"name": "Edson",
+			"code": "s0000518",
+			"prov": "AB"
+		},
+		{
+			"name": "Inuvik",
+			"code": "s0000519",
+			"prov": "NT"
+		},
+		{
+			"name": "Armstrong",
+			"code": "s0000520",
+			"prov": "ON"
+		},
+		{
+			"name": "Oromocto",
+			"code": "s0000521",
+			"prov": "NB"
+		},
+		{
+			"name": "Woodstock",
+			"code": "s0000522",
+			"prov": "NB"
+		},
+		{
+			"name": "Mildred Lake",
+			"code": "s0000523",
+			"prov": "AB"
+		},
+		{
+			"name": "Fort Resolution",
+			"code": "s0000524",
+			"prov": "NT"
+		},
+		{
+			"name": "Fort Simpson",
+			"code": "s0000525",
+			"prov": "NT"
+		},
+		{
+			"name": "Makkovik",
+			"code": "s0000526",
+			"prov": "NL"
+		},
+		{
+			"name": "Golden",
+			"code": "s0000527",
+			"prov": "BC"
+		},
+		{
+			"name": "Greater Napanee",
+			"code": "s0000528",
+			"prov": "ON"
+		},
+		{
+			"name": "Sydenham",
+			"code": "s0000529",
+			"prov": "ON"
+		},
+		{
+			"name": "Westport",
+			"code": "s0000530",
+			"prov": "ON"
+		},
+		{
+			"name": "Kingston",
+			"code": "s0000531",
+			"prov": "ON"
+		},
+		{
+			"name": "La Grande Rivière",
+			"code": "s0000532",
+			"prov": "QC"
+		},
+		{
+			"name": "Arnes",
+			"code": "s0000533",
+			"prov": "MB"
+		},
+		{
+			"name": "Gimli",
+			"code": "s0000534",
+			"prov": "MB"
+		},
+		{
+			"name": "Gaspé",
+			"code": "s0000535",
+			"prov": "QC"
+		},
+		{
+			"name": "Forillon",
+			"code": "s0000536",
+			"prov": "QC"
+		},
+		{
+			"name": "Forillon (National Park)",
+			"code": "s0000537",
+			"prov": "QC"
+		},
+		{
+			"name": "Greenstone (Geraldton)",
+			"code": "s0000538",
+			"prov": "ON"
+		},
+		{
+			"name": "Greenstone (Nakina)",
+			"code": "s0000539",
+			"prov": "ON"
+		},
+		{
+			"name": "Igloolik",
+			"code": "s0000540",
+			"prov": "NU"
+		},
+		{
+			"name": "Havre St-Pierre",
+			"code": "s0000541",
+			"prov": "QC"
+		},
+		{
+			"name": "Kuujjuarapik",
+			"code": "s0000542",
+			"prov": "QC"
+		},
+		{
+			"name": "Gillam",
+			"code": "s0000543",
+			"prov": "MB"
+		},
+		{
+			"name": "Quaqtaq",
+			"code": "s0000544",
+			"prov": "QC"
+		},
+		{
+			"name": "Hudson Bay",
+			"code": "s0000545",
+			"prov": "SK"
+		},
+		{
+			"name": "Dryden",
+			"code": "s0000546",
+			"prov": "ON"
+		},
+		{
+			"name": "Hope",
+			"code": "s0000547",
+			"prov": "BC"
+		},
+		{
+			"name": "Haldimand County",
+			"code": "s0000548",
+			"prov": "ON"
+		},
+		{
+			"name": "Hamilton",
+			"code": "s0000549",
+			"prov": "ON"
+		},
+		{
+			"name": "Brantford",
+			"code": "s0000550",
+			"prov": "ON"
+		},
+		{
+			"name": "Longueuil",
+			"code": "s0000551",
+			"prov": "QC"
+		},
+		{
+			"name": "Richelieu",
+			"code": "s0000552",
+			"prov": "QC"
+		},
+		{
+			"name": "Carignan",
+			"code": "s0000553",
+			"prov": "QC"
+		},
+		{
+			"name": "Chambly",
+			"code": "s0000554",
+			"prov": "QC"
+		},
+		{
+			"name": "Mont Saint-Hilaire",
+			"code": "s0000555",
+			"prov": "QC"
+		},
+		{
+			"name": "Otterburn Park",
+			"code": "s0000556",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Amable",
+			"code": "s0000557",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Basile Le Grand",
+			"code": "s0000558",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Julie",
+			"code": "s0000559",
+			"prov": "QC"
+		},
+		{
+			"name": "Enterprise",
+			"code": "s0000560",
+			"prov": "NT"
+		},
+		{
+			"name": "Hay River",
+			"code": "s0000561",
+			"prov": "NT"
+		},
+		{
+			"name": "Summerside",
+			"code": "s0000562",
+			"prov": "PE"
+		},
+		{
+			"name": "Ivujivik",
+			"code": "s0000563",
+			"prov": "QC"
+		},
+		{
+			"name": "Pond Inlet",
+			"code": "s0000564",
+			"prov": "NU"
+		},
+		{
+			"name": "Island Lake",
+			"code": "s0000565",
+			"prov": "MB"
+		},
+		{
+			"name": "Gods Lake",
+			"code": "s0000566",
+			"prov": "MB"
+		},
+		{
+			"name": "Stephenville",
+			"code": "s0000567",
+			"prov": "NL"
+		},
+		{
+			"name": "Kamloops",
+			"code": "s0000568",
+			"prov": "BC"
+		},
+		{
+			"name": "Cache Creek",
+			"code": "s0000569",
+			"prov": "BC"
+		},
+		{
+			"name": "Aklavik",
+			"code": "s0000570",
+			"prov": "NT"
+		},
+		{
+			"name": "Guelph",
+			"code": "s0000571",
+			"prov": "ON"
+		},
+		{
+			"name": "Cambridge",
+			"code": "s0000572",
+			"prov": "ON"
+		},
+		{
+			"name": "Kitchener-Waterloo",
+			"code": "s0000573",
+			"prov": "ON"
+		},
+		{
+			"name": "Kangiqsujuaq",
+			"code": "s0000574",
+			"prov": "QC"
+		},
+		{
+			"name": "Lac Raglan",
+			"code": "s0000575",
+			"prov": "QC"
+		},
+		{
+			"name": "Key Lake",
+			"code": "s0000576",
+			"prov": "SK"
+		},
+		{
+			"name": "Schefferville",
+			"code": "s0000577",
+			"prov": "QC"
+		},
+		{
+			"name": "Akulivik",
+			"code": "s0000578",
+			"prov": "QC"
+		},
+		{
+			"name": "Waskaganish",
+			"code": "s0000579",
+			"prov": "QC"
+		},
+		{
+			"name": "Baie-James",
+			"code": "s0000580",
+			"prov": "QC"
+		},
+		{
+			"name": "Kindersley",
+			"code": "s0000581",
+			"prov": "SK"
+		},
+		{
+			"name": "Newmarket",
+			"code": "s0000582",
+			"prov": "ON"
+		},
+		{
+			"name": "Charlottetown",
+			"code": "s0000583",
+			"prov": "PE"
+		},
+		{
+			"name": "Vaughan",
+			"code": "s0000584",
+			"prov": "ON"
+		},
+		{
+			"name": "Markham",
+			"code": "s0000585",
+			"prov": "ON"
+		},
+		{
+			"name": "Aupaluk",
+			"code": "s0000586",
+			"prov": "QC"
+		},
+		{
+			"name": "Kimmirut",
+			"code": "s0000587",
+			"prov": "NU"
+		},
+		{
+			"name": "Chapleau",
+			"code": "s0000588",
+			"prov": "ON"
+		},
+		{
+			"name": "Meadow Lake",
+			"code": "s0000589",
+			"prov": "SK"
+		},
+		{
+			"name": "Lloydminster",
+			"code": "s0000590",
+			"prov": "AB"
+		},
+		{
+			"name": "Kangiqsualujjuaq",
+			"code": "s0000591",
+			"prov": "QC"
+		},
+		{
+			"name": "Kelowna",
+			"code": "s0000592",
+			"prov": "BC"
+		},
+		{
+			"name": "Mayo",
+			"code": "s0000593",
+			"prov": "YT"
+		},
+		{
+			"name": "Mary's Harbour",
+			"code": "s0000594",
+			"prov": "NL"
+		},
+		{
+			"name": "Fort McMurray",
+			"code": "s0000595",
+			"prov": "AB"
+		},
+		{
+			"name": "Moosonee",
+			"code": "s0000596",
+			"prov": "ON"
+		},
+		{
+			"name": "Fort Albany",
+			"code": "s0000597",
+			"prov": "ON"
+		},
+		{
+			"name": "Chibougamau",
+			"code": "s0000598",
+			"prov": "QC"
+		},
+		{
+			"name": "Umiujaq",
+			"code": "s0000599",
+			"prov": "QC"
+		},
+		{
+			"name": "Mirabel",
+			"code": "s0000600",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Jérôme",
+			"code": "s0000601",
+			"prov": "QC"
+		},
+		{
+			"name": "Lachute",
+			"code": "s0000602",
+			"prov": "QC"
+		},
+		{
+			"name": "Blainville",
+			"code": "s0000603",
+			"prov": "QC"
+		},
+		{
+			"name": "Boisbriand",
+			"code": "s0000604",
+			"prov": "QC"
+		},
+		{
+			"name": "Lorraine",
+			"code": "s0000605",
+			"prov": "QC"
+		},
+		{
+			"name": "Rosemère",
+			"code": "s0000606",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Anne-Des-Plaines",
+			"code": "s0000607",
+			"prov": "QC"
+		},
+		{
+			"name": "Sainte-Thérèse",
+			"code": "s0000608",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Eustache",
+			"code": "s0000609",
+			"prov": "QC"
+		},
+		{
+			"name": "Natashquan",
+			"code": "s0000610",
+			"prov": "QC"
+		},
+		{
+			"name": "Gatineau",
+			"code": "s0000611",
+			"prov": "QC"
+		},
+		{
+			"name": "Papineau",
+			"code": "s0000612",
+			"prov": "QC"
+		},
+		{
+			"name": "Pontiac",
+			"code": "s0000613",
+			"prov": "QC"
+		},
+		{
+			"name": "Val-des-Monts",
+			"code": "s0000614",
+			"prov": "QC"
+		},
+		{
+			"name": "Chelsea",
+			"code": "s0000615",
+			"prov": "QC"
+		},
+		{
+			"name": "Norway House",
+			"code": "s0000616",
+			"prov": "MB"
+		},
+		{
+			"name": "Matagami",
+			"code": "s0000617",
+			"prov": "QC"
+		},
+		{
+			"name": "Ekati (Lac de Gras)",
+			"code": "s0000618",
+			"prov": "NT"
+		},
+		{
+			"name": "Cold Lake",
+			"code": "s0000619",
+			"prov": "AB"
+		},
+		{
+			"name": "Québec",
+			"code": "s0000620",
+			"prov": "QC"
+		},
+		{
+			"name": "High Level",
+			"code": "s0000621",
+			"prov": "AB"
+		},
+		{
+			"name": "Grand Manan",
+			"code": "s0000622",
+			"prov": "NB"
+		},
+		{
+			"name": "Ottawa (Richmond - Metcalfe)",
+			"code": "s0000623",
+			"prov": "ON"
+		},
+		{
+			"name": "Prince Albert",
+			"code": "s0000624",
+			"prov": "SK"
+		},
+		{
+			"name": "Peace River",
+			"code": "s0000625",
+			"prov": "AB"
+		},
+		{
+			"name": "Portage la Prairie",
+			"code": "s0000626",
+			"prov": "MB"
+		},
+		{
+			"name": "Inukjuak",
+			"code": "s0000627",
+			"prov": "QC"
+		},
+		{
+			"name": "Pickle Lake",
+			"code": "s0000628",
+			"prov": "ON"
+		},
+		{
+			"name": "Peterborough",
+			"code": "s0000629",
+			"prov": "ON"
+		},
+		{
+			"name": "Port Perry",
+			"code": "s0000630",
+			"prov": "ON"
+		},
+		{
+			"name": "Kawartha Lakes (Lindsay)",
+			"code": "s0000631",
+			"prov": "ON"
+		},
+		{
+			"name": "Kawartha Lakes (Fenelon Falls)",
+			"code": "s0000632",
+			"prov": "ON"
+		},
+		{
+			"name": "Prince Rupert",
+			"code": "s0000633",
+			"prov": "BC"
+		},
+		{
+			"name": "Powell River",
+			"code": "s0000634",
+			"prov": "BC"
+		},
+		{
+			"name": "Montréal",
+			"code": "s0000635",
+			"prov": "QC"
+		},
+		{
+			"name": "Fort Chipewyan",
+			"code": "s0000636",
+			"prov": "AB"
+		},
+		{
+			"name": "Burk's Falls",
+			"code": "s0000637",
+			"prov": "ON"
+		},
+		{
+			"name": "Gravenhurst",
+			"code": "s0000638",
+			"prov": "ON"
+		},
+		{
+			"name": "Port Carling",
+			"code": "s0000639",
+			"prov": "ON"
+		},
+		{
+			"name": "Huntsville",
+			"code": "s0000640",
+			"prov": "ON"
+		},
+		{
+			"name": "Bracebridge",
+			"code": "s0000641",
+			"prov": "ON"
+		},
+		{
+			"name": "Muskoka",
+			"code": "s0000642",
+			"prov": "ON"
+		},
+		{
+			"name": "Rainbow Lake",
+			"code": "s0000643",
+			"prov": "AB"
+		},
+		{
+			"name": "The Pas",
+			"code": "s0000644",
+			"prov": "MB"
+		},
+		{
+			"name": "Red Deer",
+			"code": "s0000645",
+			"prov": "AB"
+		},
+		{
+			"name": "Windsor",
+			"code": "s0000646",
+			"prov": "ON"
+		},
+		{
+			"name": "Good Hope Lake",
+			"code": "s0000647",
+			"prov": "BC"
+		},
+		{
+			"name": "Watson Lake",
+			"code": "s0000648",
+			"prov": "YT"
+		},
+		{
+			"name": "Yarmouth",
+			"code": "s0000649",
+			"prov": "NS"
+		},
+		{
+			"name": "Sioux Narrows",
+			"code": "s0000650",
+			"prov": "ON"
+		},
+		{
+			"name": "Kenora",
+			"code": "s0000651",
+			"prov": "ON"
+		},
+		{
+			"name": "Lethbridge",
+			"code": "s0000652",
+			"prov": "AB"
+		},
+		{
+			"name": "Shediac",
+			"code": "s0000653",
+			"prov": "NB"
+		},
+		{
+			"name": "Moncton",
+			"code": "s0000654",
+			"prov": "NB"
+		},
+		{
+			"name": "Hopewell",
+			"code": "s0000655",
+			"prov": "NB"
+		},
+		{
+			"name": "Comox",
+			"code": "s0000656",
+			"prov": "BC"
+		},
+		{
+			"name": "Courtenay",
+			"code": "s0000657",
+			"prov": "BC"
+		},
+		{
+			"name": "Brampton",
+			"code": "s0000658",
+			"prov": "ON"
+		},
+		{
+			"name": "Kakabeka Falls",
+			"code": "s0000659",
+			"prov": "ON"
+		},
+		{
+			"name": "Dorion",
+			"code": "s0000660",
+			"prov": "ON"
+		},
+		{
+			"name": "Grande Prairie",
+			"code": "s0000661",
+			"prov": "AB"
+		},
+		{
+			"name": "Canora",
+			"code": "s0000662",
+			"prov": "SK"
+		},
+		{
+			"name": "Yorkton",
+			"code": "s0000663",
+			"prov": "SK"
+		},
+		{
+			"name": "Kamsack",
+			"code": "s0000664",
+			"prov": "SK"
+		},
+		{
+			"name": "Melville",
+			"code": "s0000665",
+			"prov": "SK"
+		},
+		{
+			"name": "North Battleford",
+			"code": "s0000666",
+			"prov": "SK"
+		},
+		{
+			"name": "Gander",
+			"code": "s0000667",
+			"prov": "NL"
+		},
+		{
+			"name": "Campbellton",
+			"code": "s0000668",
+			"prov": "NL"
+		},
+		{
+			"name": "Lewisporte",
+			"code": "s0000669",
+			"prov": "NL"
+		},
+		{
+			"name": "Sydney",
+			"code": "s0000670",
+			"prov": "NS"
+		},
+		{
+			"name": "Quesnel",
+			"code": "s0000671",
+			"prov": "BC"
+		},
+		{
+			"name": "Resolute",
+			"code": "s0000672",
+			"prov": "NU"
+		},
+		{
+			"name": "Roberval",
+			"code": "s0000673",
+			"prov": "QC"
+		},
+		{
+			"name": "Lac-Saint-Jean",
+			"code": "s0000674",
+			"prov": "QC"
+		},
+		{
+			"name": "Saint-Félicien",
+			"code": "s0000675",
+			"prov": "QC"
+		},
+		{
+			"name": "Red Lake",
+			"code": "s0000676",
+			"prov": "ON"
+		},
+		{
+			"name": "Pikangikum",
+			"code": "s0000677",
+			"prov": "ON"
+		},
+		{
+			"name": "Rankin Inlet",
+			"code": "s0000678",
+			"prov": "NU"
+		},
+		{
+			"name": "Revelstoke",
+			"code": "s0000679",
+			"prov": "BC"
+		},
+		{
+			"name": "Greater Sudbury",
+			"code": "s0000680",
+			"prov": "ON"
+		},
+		{
+			"name": "Sherbrooke",
+			"code": "s0000681",
+			"prov": "QC"
+		},
+		{
+			"name": "Asbestos",
+			"code": "s0000682",
+			"prov": "QC"
+		},
+		{
+			"name": "Suffield",
+			"code": "s0000683",
+			"prov": "AB"
+		},
+		{
+			"name": "Stony Rapids",
+			"code": "s0000684",
+			"prov": "SK"
+		},
+		{
+			"name": "Quispamsis",
+			"code": "s0000685",
+			"prov": "NB"
+		},
+		{
+			"name": "Sussex",
+			"code": "s0000686",
+			"prov": "NB"
+		},
+		{
+			"name": "Saint John",
+			"code": "s0000687",
+			"prov": "NB"
+		},
+		{
+			"name": "Fundy (National Park)",
+			"code": "s0000688",
+			"prov": "NB"
+		},
+		{
+			"name": "Sanikiluaq",
+			"code": "s0000689",
+			"prov": "NU"
+		},
+		{
+			"name": "Fort Smith",
+			"code": "s0000690",
+			"prov": "NT"
+		},
+		{
+			"name": "St. Catharines",
+			"code": "s0000691",
+			"prov": "ON"
+		},
+		{
+			"name": "Niagara Falls",
+			"code": "s0000692",
+			"prov": "ON"
+		},
+		{
+			"name": "Nanisivik",
+			"code": "s0000693",
+			"prov": "NU"
+		},
+		{
+			"name": "Cape Dorset",
+			"code": "s0000694",
+			"prov": "NU"
+		},
+		{
+			"name": "Thompson",
+			"code": "s0000695",
+			"prov": "MB"
+		},
+		{
+			"name": "Sachigo Lake",
+			"code": "s0000696",
+			"prov": "ON"
+		},
+		{
+			"name": "Big Trout Lake",
+			"code": "s0000697",
+			"prov": "ON"
+		},
+		{
+			"name": "Wunnummin Lake",
+			"code": "s0000698",
+			"prov": "ON"
+		},
+		{
+			"name": "Tasiujaq",
+			"code": "s0000699",
+			"prov": "QC"
+		},
+		{
+			"name": "Stirling",
+			"code": "s0000700",
+			"prov": "ON"
+		},
+		{
+			"name": "Trenton",
+			"code": "s0000701",
+			"prov": "ON"
+		},
+		{
+			"name": "Prince Edward (Picton)",
+			"code": "s0000702",
+			"prov": "ON"
+		},
+		{
+			"name": "Belleville",
+			"code": "s0000703",
+			"prov": "ON"
+		},
+		{
+			"name": "Quinte West",
+			"code": "s0000704",
+			"prov": "ON"
+		},
+		{
+			"name": "Timmins",
+			"code": "s0000705",
+			"prov": "ON"
+		},
+		{
+			"name": "Cochrane",
+			"code": "s0000706",
+			"prov": "ON"
+		},
+		{
+			"name": "Oshawa",
+			"code": "s0000707",
+			"prov": "ON"
+		},
+		{
+			"name": "Whitby",
+			"code": "s0000708",
+			"prov": "ON"
+		},
+		{
+			"name": "Shawinigan",
+			"code": "s0000709",
+			"prov": "QC"
+		},
+		{
+			"name": "Pickering",
+			"code": "s0000710",
+			"prov": "ON"
+		},
+		{
+			"name": "Puvirnituq",
+			"code": "s0000711",
+			"prov": "QC"
+		},
+		{
+			"name": "Laval",
+			"code": "s0000712",
+			"prov": "QC"
+		},
+		{
+			"name": "Naujaat",
+			"code": "s0000713",
+			"prov": "NU"
+		},
+		{
+			"name": "Hall Beach",
+			"code": "s0000714",
+			"prov": "NU"
+		},
+		{
+			"name": "La Ronge",
+			"code": "s0000715",
+			"prov": "SK"
+		},
+		{
+			"name": "Qikiqtarjuaq",
+			"code": "s0000716",
+			"prov": "NU"
+		},
+		{
+			"name": "Val-d'Or",
+			"code": "s0000717",
+			"prov": "QC"
+		},
+		{
+			"name": "Amos",
+			"code": "s0000718",
+			"prov": "QC"
+		},
+		{
+			"name": "Kuujjuaq",
+			"code": "s0000719",
+			"prov": "QC"
+		},
+		{
+			"name": "Norman Wells",
+			"code": "s0000720",
+			"prov": "NT"
+		},
+		{
+			"name": "Joliette",
+			"code": "s0000721",
+			"prov": "QC"
+		},
+		{
+			"name": "La Loche",
+			"code": "s0000722",
+			"prov": "SK"
+		},
+		{
+			"name": "Buffalo Narrows",
+			"code": "s0000723",
+			"prov": "SK"
+		},
+		{
+			"name": "Wiarton",
+			"code": "s0000724",
+			"prov": "ON"
+		},
+		{
+			"name": "Port Elgin",
+			"code": "s0000725",
+			"prov": "ON"
+		},
+		{
+			"name": "Saugeen Shores",
+			"code": "s0000726",
+			"prov": "ON"
+		},
+		{
+			"name": "South Bruce Peninsula",
+			"code": "s0000727",
+			"prov": "ON"
+		},
+		{
+			"name": "Owen Sound",
+			"code": "s0000728",
+			"prov": "ON"
+		},
+		{
+			"name": "Petawawa",
+			"code": "s0000729",
+			"prov": "ON"
+		},
+		{
+			"name": "Pembroke",
+			"code": "s0000730",
+			"prov": "ON"
+		},
+		{
+			"name": "Renfrew",
+			"code": "s0000731",
+			"prov": "ON"
+		},
+		{
+			"name": "Deep River",
+			"code": "s0000732",
+			"prov": "ON"
+		},
+		{
+			"name": "Moosomin",
+			"code": "s0000733",
+			"prov": "SK"
+		},
+		{
+			"name": "Richer",
+			"code": "s0000734",
+			"prov": "MB"
+		},
+		{
+			"name": "Victoria Harbour",
+			"code": "s0000735",
+			"prov": "BC"
+		},
+		{
+			"name": "Wabush Lake",
+			"code": "s0000736",
+			"prov": "NL"
+		},
+		{
+			"name": "Labrador City",
+			"code": "s0000737",
+			"prov": "NL"
+		},
+		{
+			"name": "Fermont",
+			"code": "s0000738",
+			"prov": "QC"
+		},
+		{
+			"name": "Williams Lake",
+			"code": "s0000739",
+			"prov": "BC"
+		},
+		{
+			"name": "Wrigley",
+			"code": "s0000740",
+			"prov": "NT"
+		},
+		{
+			"name": "Cranbrook",
+			"code": "s0000741",
+			"prov": "BC"
+		},
+		{
+			"name": "Saint-Timothée",
+			"code": "s0000742",
+			"prov": "QC"
+		},
+		{
+			"name": "Rosthern",
+			"code": "s0000743",
+			"prov": "SK"
+		},
+		{
+			"name": "Lambton Shores",
+			"code": "s0000744",
+			"prov": "ON"
+		},
+		{
+			"name": "Medicine Hat",
+			"code": "s0000745",
+			"prov": "AB"
+		},
+		{
+			"name": "Fort St. John",
+			"code": "s0000746",
+			"prov": "BC"
+		},
+		{
+			"name": "Savant Lake",
+			"code": "s0000747",
+			"prov": "ON"
+		},
+		{
+			"name": "Sioux Lookout",
+			"code": "s0000748",
+			"prov": "ON"
+		},
+		{
+			"name": "Whale Cove",
+			"code": "s0000749",
+			"prov": "NU"
+		},
+		{
+			"name": "Pangnirtung",
+			"code": "s0000750",
+			"prov": "NU"
+		},
+		{
+			"name": "Beaver Creek",
+			"code": "s0000751",
+			"prov": "YT"
+		},
+		{
+			"name": "Earlton",
+			"code": "s0000752",
+			"prov": "ON"
+		},
+		{
+			"name": "Temiskaming Shores",
+			"code": "s0000753",
+			"prov": "ON"
+		},
+		{
+			"name": "Vanderhoof",
+			"code": "s0000754",
+			"prov": "BC"
+		},
+		{
+			"name": "Repentigny",
+			"code": "s0000755",
+			"prov": "QC"
+		},
+		{
+			"name": "Kitimat",
+			"code": "s0000756",
+			"prov": "BC"
+		},
+		{
+			"name": "Terrace",
+			"code": "s0000757",
+			"prov": "BC"
+		},
+		{
+			"name": "Abbotsford",
+			"code": "s0000758",
+			"prov": "BC"
+		},
+		{
+			"name": "Paulatuk",
+			"code": "s0000759",
+			"prov": "NT"
+		},
+		{
+			"name": "Carcross",
+			"code": "s0000760",
+			"prov": "YT"
+		},
+		{
+			"name": "Wawa",
+			"code": "s0000761",
+			"prov": "ON"
+		},
+		{
+			"name": "Montreal River Harbour",
+			"code": "s0000762",
+			"prov": "ON"
+		},
+		{
+			"name": "Lake Superior (Provincial Park)",
+			"code": "s0000763",
+			"prov": "ON"
+		},
+		{
+			"name": "White River",
+			"code": "s0000764",
+			"prov": "ON"
+		},
+		{
+			"name": "North Bay",
+			"code": "s0000765",
+			"prov": "ON"
+		},
+		{
+			"name": "West Nipissing",
+			"code": "s0000766",
+			"prov": "ON"
+		},
+		{
+			"name": "Okotoks",
+			"code": "s0000767",
+			"prov": "AB"
+		},
+		{
+			"name": "Airdrie",
+			"code": "s0000768",
+			"prov": "AB"
+		},
+		{
+			"name": "Delson",
+			"code": "s0000769",
+			"prov": "QC"
+		},
+		{
+			"name": "Smithers",
+			"code": "s0000770",
+			"prov": "BC"
+		},
+		{
+			"name": "Fort Nelson",
+			"code": "s0000771",
+			"prov": "BC"
+		},
+		{
+			"name": "Penticton",
+			"code": "s0000772",
+			"prov": "BC"
+		},
+		{
+			"name": "Richmond Hill",
+			"code": "s0000773",
+			"prov": "ON"
+		},
+		{
+			"name": "Taloyoak",
+			"code": "s0000774",
+			"prov": "NU"
+		},
+		{
+			"name": "Victoria",
+			"code": "s0000775",
+			"prov": "BC"
+		},
+		{
+			"name": "Leaf Rapids",
+			"code": "s0000776",
+			"prov": "MB"
+		},
+		{
+			"name": "Lynn Lake",
+			"code": "s0000777",
+			"prov": "MB"
+		},
+		{
+			"name": "Brochet",
+			"code": "s0000778",
+			"prov": "MB"
+		},
+		{
+			"name": "Churchill",
+			"code": "s0000779",
+			"prov": "MB"
+		},
+		{
+			"name": "Happy Valley-Goose Bay",
+			"code": "s0000780",
+			"prov": "NL"
+		},
+		{
+			"name": "Grande Cache",
+			"code": "s0000781",
+			"prov": "AB"
+		},
+		{
+			"name": "Kapuskasing",
+			"code": "s0000782",
+			"prov": "ON"
+		},
+		{
+			"name": "Mont-Joli",
+			"code": "s0000783",
+			"prov": "QC"
+		},
+		{
+			"name": "Matane",
+			"code": "s0000784",
+			"prov": "QC"
+		},
+		{
+			"name": "Toronto Island",
+			"code": "s0000785",
+			"prov": "ON"
+		},
+		{
+			"name": "Mississauga",
+			"code": "s0000786",
+			"prov": "ON"
+		},
+		{
+			"name": "Caledon",
+			"code": "s0000787",
+			"prov": "ON"
+		},
+		{
+			"name": "Regina",
+			"code": "s0000788",
+			"prov": "SK"
+		},
+		{
+			"name": "Halton Hills",
+			"code": "s0000789",
+			"prov": "ON"
+		},
+		{
+			"name": "Gore Bay",
+			"code": "s0000790",
+			"prov": "ON"
+		},
+		{
+			"name": "Detah",
+			"code": "s0000791",
+			"prov": "NT"
+		},
+		{
+			"name": "Victoria (Hartland)",
+			"code": "s0000792",
+			"prov": "BC"
+		},
+		{
+			"name": "Salluit",
+			"code": "s0000793",
+			"prov": "QC"
+		},
+		{
+			"name": "Slave Lake",
+			"code": "s0000794",
+			"prov": "AB"
+		},
+		{
+			"name": "Sandspit",
+			"code": "s0000795",
+			"prov": "BC"
+		},
+		{
+			"name": "Sarnia",
+			"code": "s0000796",
+			"prov": "ON"
+		},
+		{
+			"name": "Saskatoon",
+			"code": "s0000797",
+			"prov": "SK"
+		},
+		{
+			"name": "Coral Harbour",
+			"code": "s0000798",
+			"prov": "NU"
+		},
+		{
+			"name": "Port Hardy",
+			"code": "s0000799",
+			"prov": "BC"
+		},
+		{
+			"name": "Sept-Îles",
+			"code": "s0000800",
+			"prov": "QC"
+		},
+		{
+			"name": "Port-Cartier",
+			"code": "s0000801",
+			"prov": "QC"
+		},
+		{
+			"name": "Annapolis Royal",
+			"code": "s0000802",
+			"prov": "NS"
+		},
+		{
+			"name": "Greenwood",
+			"code": "s0000803",
+			"prov": "NS"
+		},
+		{
+			"name": "Bridgetown",
+			"code": "s0000804",
+			"prov": "NS"
+		},
+		{
+			"name": "Mackenzie",
+			"code": "s0000805",
+			"prov": "BC"
+		},
+		{
+			"name": "Bathurst",
+			"code": "s0000806",
+			"prov": "NB"
+		},
+		{
+			"name": "Campbellton",
+			"code": "s0000807",
+			"prov": "NB"
+		},
+		{
+			"name": "Dalhousie",
+			"code": "s0000808",
+			"prov": "NB"
+		},
+		{
+			"name": "Charlo",
+			"code": "s0000809",
+			"prov": "NB"
+		},
+		{
+			"name": "Pointe-à-la-Croix",
+			"code": "s0000810",
+			"prov": "QC"
+		},
+		{
+			"name": "Carleton-sur-Mer",
+			"code": "s0000811",
+			"prov": "QC"
+		},
+		{
+			"name": "Tatamagouche",
+			"code": "s0000812",
+			"prov": "NS"
+		},
+		{
+			"name": "Truro",
+			"code": "s0000813",
+			"prov": "NS"
+		},
+		{
+			"name": "Economy",
+			"code": "s0000814",
+			"prov": "NS"
+		},
+		{
+			"name": "Orangeville",
+			"code": "s0000815",
+			"prov": "ON"
+		},
+		{
+			"name": "Fort McPherson",
+			"code": "s0000816",
+			"prov": "NT"
+		},
+		{
+			"name": "Tulita",
+			"code": "s0000817",
+			"prov": "NT"
+		},
+		{
+			"name": "Fort Good Hope",
+			"code": "s0000818",
+			"prov": "NT"
+		},
+		{
+			"name": "Ignace",
+			"code": "s0000819",
+			"prov": "ON"
+		},
+		{
+			"name": "Gjoa Haven",
+			"code": "s0000820",
+			"prov": "NU"
+		},
+		{
+			"name": "Alert",
+			"code": "s0000821",
+			"prov": "NU"
+		},
+		{
+			"name": "Moose Jaw",
+			"code": "s0000822",
+			"prov": "SK"
+		},
+		{
+			"name": "Old Crow",
+			"code": "s0000823",
+			"prov": "YT"
+		},
+		{
+			"name": "Pincher Creek",
+			"code": "s0000824",
+			"prov": "AB"
+		},
+		{
+			"name": "Whitehorse",
+			"code": "s0000825",
+			"prov": "YT"
+		},
+		{
+			"name": "Sandy Lake",
+			"code": "s0000826",
+			"prov": "ON"
+		},
+		{
+			"name": "St. Peters Bay",
+			"code": "s0000827",
+			"prov": "PE"
+		},
+		{
+			"name": "Stewart",
+			"code": "s0000828",
+			"prov": "BC"
+		},
+		{
+			"name": "Stettler",
+			"code": "s0000829",
+			"prov": "AB"
+		},
+		{
+			"name": "Tuktoyaktuk",
+			"code": "s0000830",
+			"prov": "NT"
+		},
+		{
+			"name": "Delta",
+			"code": "s0000831",
+			"prov": "MB"
+		},
+		{
+			"name": "Churchill Falls",
+			"code": "s0000832",
+			"prov": "NL"
+		},
+		{
+			"name": "Wainwright",
+			"code": "s0000833",
+			"prov": "AB"
+		},
+		{
+			"name": "Bella Bella",
+			"code": "s0000834",
+			"prov": "BC"
+		},
+		{
+			"name": "Lloydminster",
+			"code": "s0000835",
+			"prov": "SK"
+		},
+		{
+			"name": "Sudbury (Greater)",
+			"code": "s0000843",
+			"prov": "ON"
+		},
+		{
+			"name": "Cummins Lakes (Provincial Park)",
+			"code": "s0000845",
+			"prov": "BC"
+		},
+		{
+			"name": "L'Anse-au-Loup",
+			"code": "s0000857",
+			"prov": "NL"
+		},
+		{
+			"name": "Rigolet",
+			"code": "s0000858",
+			"prov": "NL"
+		},
+		{
+			"name": "Cartwright Junction (Trans-Labrador Hwy)",
+			"code": "s0000859",
+			"prov": "NL"
+		},
+		{
+			"name": "Gull Island Rapids (Trans-Labrador Hwy)",
+			"code": "s0000860",
+			"prov": "NL"
+		},
+		{
+			"name": "Eskasoni",
+			"code": "s0000861",
+			"prov": "NS"
+		},
+		{
+			"name": "Richmond",
+			"code": "s0000862",
+			"prov": "BC"
+		},
+		{
+			"name": "Duncan",
+			"code": "s0000863",
+			"prov": "BC"
+		},
+		{
+			"name": "Qualicum Beach",
+			"code": "s0000864",
+			"prov": "BC"
+		},
+		{
+			"name": "West Vancouver",
+			"code": "s0000865",
+			"prov": "BC"
+		},
+		{
+			"name": "Langley",
+			"code": "s0000866",
+			"prov": "BC"
+		}
+	]
+}

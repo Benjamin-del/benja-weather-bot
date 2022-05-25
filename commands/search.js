@@ -1,6 +1,6 @@
-const stlist = require("../static/stations.json")
+const stlist = require("../config/locations.json")
 const h = require("../helper.js")
-console.log("INFO: COMMAND /SEARCH READY")
+console.log("BOT: COMMAND /SEARCH READY")
 
 module.exports = {
 	command: async function(options,interaction) {
@@ -9,7 +9,6 @@ module.exports = {
 		const item = options.trimmed
 
 		await interaction.editReply("Found `" + item.length + "` Results")
-
 
 		for (let i = 0; i < item.length; i++) {
 
@@ -56,16 +55,10 @@ module.exports = {
 	helper: async function (query) {
 
 	const matching = []
-			const list = stlist.features
+			const list = stlist.stations
 		  for (let i = 0; i < list.length; i++) {
-				if (list[i].properties["English Names"].includes(query)) {
-
-					const st = {
-						name: h.fix(list[i].properties["English Names"]),
-						code: list[i].properties["Codes"],
-						prov: list[i].properties["Province Codes"]
-						}
-					matching.push(st)
+				if (list[i].name.includes(query)) {
+					matching.push(list[i])
 				}
 			}
 	const results = {

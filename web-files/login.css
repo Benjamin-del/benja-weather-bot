@@ -1,0 +1,39 @@
+html, body {
+     height: 100%;
+     margin: 0px 
+}
+ #parent {
+     height: 100%;
+     background: #202225;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ #login {
+     background-color: #5865F2;
+     width: 30%;
+     height: 50%;
+     border-radius: 25px;
+}
+ a {
+     width: 80%;
+     padding: 1%;
+    margin: auto;
+    border: 2px solid white;
+    display: block;
+     border-radius: 50px;
+    text-align: center;
+     color: white;
+    /* margin-top: 30px;
+     */
+     font-size: 17px;
+     font-family: sans-serif;
+     text-decoration: none !important;
+}
+ p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: white;
+}

@@ -1,4 +1,4 @@
-console.log("INFO: COMMAND OPTIONS LOADED")
+console.log("BOT: COMMAND OPTIONS LOADED")
 module.exports = {
 	command: function(code,prov) {
 			const comp = [
